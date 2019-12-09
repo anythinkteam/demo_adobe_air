@@ -1,0 +1,36 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.uparpu.adapter.oneway</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		 <platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>uparpuNetworkOneway.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>uparpuNetworkOneway.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libUpArpuAneOnewayAdapter.a</nativeLibrary>
+				<initializer>UPArpuOnewayExtensionInitializer</initializer>
+				<finalizer>UPArpuOnewayExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libUpArpuAneOnewayAdapter.a</nativeLibrary>
+				<initializer>UPArpuOnewayExtensionInitializer</initializer>
+				<finalizer>UPArpuOnewayExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

@@ -1,0 +1,6 @@
+framework module UpArpuBaiduRewardedVideoAdapter {
+  umbrella header "UpArpuBaiduRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
+    <description>up_sdk_adapter_nend</description> 
+    <copyright>uparpu</copyright> 
+     <sdkVersion>3.5.0</sdkVersion>
+    <linkerOptions>
+        <option>-ObjC</option>
+         <option>-w</option>
+        <option>-ios_version_min 8.1</option>
+    </linkerOptions>
+
+    <packagedDependencies> 
+        <packagedDependency>NendAd.framework</packagedDependency>
+        <packagedDependency>UpArpuNendInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuNendRewardedVideoAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuNendBannerAdapter.framework</packagedDependency>
+        <packagedDependency>UpArpuNendNativeAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>
+

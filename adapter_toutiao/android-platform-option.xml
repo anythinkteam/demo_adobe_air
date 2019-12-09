@@ -1,0 +1,14 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>up_sdk_ane</description>
+	<copyright>uparpu</copyright>
+	<packagedDependencies>
+		<packagedDependency>openadsdk-1.9.9.2.jar</packagedDependency>
+		<packagedDependency>openadsdk-tools-1.9.9.2.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.bytedance.sdk.openadsdk</packageName>
+			<folderName>tt-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

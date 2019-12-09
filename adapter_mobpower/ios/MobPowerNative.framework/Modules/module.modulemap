@@ -1,0 +1,6 @@
+framework module MobPowerNative {
+  umbrella header "MobPowerNative.h"
+
+  export *
+  module * { export * }
+}

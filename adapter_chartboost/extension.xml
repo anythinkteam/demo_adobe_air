@@ -1,0 +1,36 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.uparpu.adapter.chartboost</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		 <platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>uparpuNetworkChartboost.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>uparpuNetworkChartboost.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libUpArpuAneChartboostAdapter.a</nativeLibrary>
+				<initializer>UPArpuChartboostExtensionInitializer</initializer>
+				<finalizer>UPArpuChartboostExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libUpArpuAneChartboostAdapter.a</nativeLibrary>
+				<initializer>UPArpuChartboostExtensionInitializer</initializer>
+				<finalizer>UPArpuChartboostExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

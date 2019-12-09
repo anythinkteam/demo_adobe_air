@@ -1,0 +1,6 @@
+framework module UpArpuTTNativeAdapter {
+  umbrella header "UpArpuTTNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

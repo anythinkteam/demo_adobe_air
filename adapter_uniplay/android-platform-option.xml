@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>up_sdk_ane</description>
+	<copyright>uparpu</copyright>
+	<packagedDependencies>
+		<packagedDependency>UniplayAdSDK-5.8.2.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.uparpu.sdk</packageName>
+			<folderName>uniplay-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

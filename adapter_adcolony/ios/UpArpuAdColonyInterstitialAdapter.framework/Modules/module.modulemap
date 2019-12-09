@@ -1,0 +1,6 @@
+framework module UpArpuAdColonyInterstitialAdapter {
+  umbrella header "UpArpuAdColonyInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

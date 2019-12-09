@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.nend.android.NendAdFullBoardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nend_full_board_ad_background">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_CardViewFrame_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_CardViewFrame_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <FrameLayout
+        android:id="@+id/CardViewFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guide_CardViewFrame_top"
+        app:layout_constraintBottom_toBottomOf="@id/guide_CardViewFrame_bottom"
+        >
+
+        <net.nend.android.internal.ui.views.fullboard.NendCardView
+            android:id="@id/nend_full_board_ad_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:boardPreventCornerOverlap="false"
+            >
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/NendAdFullBoardPortraitCardConstraint"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_marginTop_4percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.04" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_height_nend_full_board_ad_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="@dimen/nend_full_board_ad_image_percent_height" />
+
+                <ImageView
+                    android:id="@id/nend_full_board_ad_image"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintDimensionRatio="5:3"
+                    app:layout_constraintLeft_toLeftOf="@id/NendAdFullBoardPortraitCardConstraint"
+                    app:layout_constraintRight_toRightOf="@id/NendAdFullBoardPortraitCardConstraint"
+                    app:layout_constraintTop_toTopOf="@id/guide_marginTop_4percent"
+                    app:layout_constraintBottom_toTopOf="@id/guide_height_nend_full_board_ad_image"
+                    />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_logo_and_promo_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="@dimen/logo_and_promo_percent_top" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_logo_and_promo_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.05" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_logo_and_promo_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="@dimen/logo_and_promo_percent_bottom" />
+
+                <ImageView
+                    android:id="@id/nend_full_board_ad_logo"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintLeft_toLeftOf="@id/guide_logo_and_promo_left"
+                    app:layout_constraintTop_toBottomOf="@id/guide_logo_and_promo_top"
+                    app:layout_constraintBottom_toTopOf="@id/guide_logo_and_promo_bottom"
+                    app:layout_constraintVertical_bias="0.0"
+                    />
+
+                <TextView
+                    android:id="@id/nend_full_board_ad_promotion"
+                    style="@style/TextView.NendAd.FullBoard.Promotion"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    app:layout_constraintRight_toRightOf="@id/NendAdFullBoardPortraitCardConstraint"
+                    app:layout_constraintLeft_toRightOf="@id/nend_full_board_ad_logo"
+                    app:layout_constraintTop_toTopOf="@id/guide_logo_and_promo_top"
+                    app:layout_constraintBottom_toBottomOf="@id/guide_logo_and_promo_bottom"
+                    />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_nend_full_board_ad_content_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="@dimen/nend_full_board_ad_content_percent_bottom" />
+
+                <TextView
+                    android:id="@+id/nend_full_board_ad_content"
+                    style="@style/TextView.NendAd.FullBoard.Content"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    app:layout_constraintLeft_toLeftOf="@id/nend_full_board_ad_image"
+                    app:layout_constraintRight_toRightOf="@id/nend_full_board_ad_image"
+                    app:layout_constraintTop_toTopOf="@id/guide_logo_and_promo_bottom"
+                    app:layout_constraintBottom_toBottomOf="@id/guide_nend_full_board_ad_content_bottom"
+                    />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guide_nend_full_board_ad_action_button_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="@dimen/nend_full_board_ad_action_button_percent_bottom" />
+
+                <TextView
+                    android:id="@id/nend_full_board_ad_action_button"
+                    style="@style/TextView.NendAd.FullBoard.ActionButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/nend_ad_full_board_action_button"
+                    android:gravity="center"
+                    app:layout_constraintLeft_toLeftOf="@id/nend_full_board_ad_image"
+                    app:layout_constraintRight_toRightOf="@id/nend_full_board_ad_image"
+                    app:layout_constraintTop_toTopOf="@id/guide_nend_full_board_ad_content_bottom"
+                    app:layout_constraintBottom_toBottomOf="@id/guide_nend_full_board_ad_action_button_bottom"
+                    />
+
+            </android.support.constraint.ConstraintLayout>
+        </net.nend.android.internal.ui.views.fullboard.NendCardView>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@id/nend_full_board_ad_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="@dimen/nend_full_board_ad_close_button_margin"
+        android:layout_marginTop="@dimen/nend_full_board_ad_close_button_margin"
+        android:src="@drawable/nend_ad_full_board_close"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@id/nend_full_board_ad_information_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/nend_ad_full_board_info"
+        android:layout_marginRight="@dimen/nend_full_board_ad_information_offset"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nend_full_board_ad_information_margin_spacer"
+        />
+
+    <android.support.v4.widget.Space
+        android:id="@id/nend_full_board_ad_information_margin_spacer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/nend_full_board_ad_information_button"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</net.nend.android.NendAdFullBoardView>

@@ -1,0 +1,6 @@
+framework module UpArpuGDTNativeAdapter {
+  umbrella header "UpArpuGDTNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

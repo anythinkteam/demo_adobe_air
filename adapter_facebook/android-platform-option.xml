@@ -1,0 +1,14 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>sdk_ane</description>
+	<copyright>anythink</copyright>
+	<packagedDependencies>
+		<packagedDependency>AudienceNetwork_5.6.0.jar</packagedDependency>
+		<packagedDependency>BiddingKit.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.facebook.ads</packageName>
+			<folderName>assets</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

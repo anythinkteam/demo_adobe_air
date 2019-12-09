@@ -1,0 +1,62 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
+    <description>up_sdk_adapter_mintegral</description> 
+    <copyright>uparpu</copyright> 
+     <sdkVersion>3.5.0</sdkVersion>
+    <linkerOptions>
+        <option>-ios_version_min 8.0</option> 
+        <option>-lclang_rt.ios</option>
+        <option>-framework CoreMotion</option>
+        <option>-framework GLKit</option>
+        <option>-framework Foundation</option>
+        <option>-framework UIKit</option>
+        <option>-framework AudioToolbox</option>
+        <option>-framework AVFoundation</option>
+        <option>-framework AdSupport</option>
+        <option>-framework CoreTelephony</option>
+        <option>-framework EventKit</option>
+        <option>-framework JavaScriptCore</option>
+        <option>-framework MessageUI</option>
+        <option>-framework Social</option>
+        <option>-framework StoreKit</option>
+        <option>-framework SystemConfiguration</option>
+        <option>-framework WatchConnectivity</option>
+        <option>-framework WebKit</option>
+        <option>-framework CFNetwork</option>
+        <option>-framework CoreGraphics</option>
+        <option>-framework CoreMedia</option>
+        <option>-framework MediaPlayer</option>
+        <option>-framework QuartzCore</option>
+        <option>-framework AssetsLibrary</option>
+        <option>-framework EventKitUI</option>
+        <option>-framework iAd</option>
+        <option>-framework MobileCoreServices</option>
+        <option>-framework Security</option>
+        <option>-framework CoreBluetooth</option>
+        <option>-framework SafariServices</option>
+        <option>-framework ReplayKit</option>
+
+        <option>-ObjC</option>
+        <option>-lsqlite3</option>
+        <option>-lc++</option>
+        <option>-lxml2</option>
+        <option>-lz</option>
+        <option>-lz.1.2.5</option>
+        <option>-lresolv.9</option>
+
+        <option>-ObjC</option>
+        <option>-lsqlite3</option>
+        <option>-lc++</option>
+        <option>-lxml2</option>
+        <option>-lz</option>
+        <option>-lz.1.2.5</option>
+        <option>-lresolv.9</option>
+    </linkerOptions>
+
+    <packagedDependencies> 
+        <packagedDependency>UpArpuAdapterMintegral.framework</packagedDependency>
+        <packagedDependency>UpArpuMintegralInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuMintegralNativeAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuMintegralRewardedVideoAdapter.framework</packagedDependency> 
+    </packagedDependencies>
+</platform>
+

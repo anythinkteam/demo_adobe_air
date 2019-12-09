@@ -1,0 +1,26 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>up_sdk_ane</description>
+	<copyright>uparpu</copyright>
+	<packagedDependencies>
+		<packagedDependency>mintegral-alphab.jar</packagedDependency>
+		<packagedDependency>mintegral-common.jar</packagedDependency>
+		<packagedDependency>mintegral-interstitial.jar</packagedDependency>
+		<packagedDependency>mintegral-interstitialvideo.jar</packagedDependency>
+		<packagedDependency>mintegral-mtgdownloads.jar</packagedDependency>		
+		<packagedDependency>mintegral-mtgjscommon.jar</packagedDependency>
+		<packagedDependency>mintegral-mtgnative.jar</packagedDependency>
+		<packagedDependency>mintegral-nativeex.jar</packagedDependency>
+		<packagedDependency>mintegral-optimizedata.jar</packagedDependency>
+		<packagedDependency>mintegral-playercommon.jar</packagedDependency>
+		<packagedDependency>mintegral-reward.jar</packagedDependency>		
+		<packagedDependency>mintegral-videocommon.jar</packagedDependency>
+		<packagedDependency>mintegral-videofeeds.jar</packagedDependency>
+		<packagedDependency>mintegral-videojs.jar</packagedDependency>	
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.uparpu.sdk</packageName>
+			<folderName>mtg-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

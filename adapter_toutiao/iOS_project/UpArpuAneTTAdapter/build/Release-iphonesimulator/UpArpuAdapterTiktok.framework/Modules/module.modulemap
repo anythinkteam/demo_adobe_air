@@ -1,0 +1,6 @@
+framework module UpArpuAdapterTiktok {
+  umbrella header "UpArpuAdapterTiktok.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="uparpu_air_demo.mxml" projectUUID="1b58b945-1497-4d56-a94f-bfb40c870f03" version="11">
+  <compiler additionalCompilerArguments="-locale zh_CN" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" useFlashSDK="false" verifyDigests="true" warn="true">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="0">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/airspark.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/netmon.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/applicationupdater.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/utilities.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/flex.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/datavisualization.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/core.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/airframework.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/applicationupdater_ui.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_flashflexkit.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_agent.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="1" linkType="1" path="libs"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_facebook.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_tiktok.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_gdt.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_ironsource.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_mobpower.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_flurry.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_applovin.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_chartboost.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_inmobi.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_unityads.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_vungle.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_baidu.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_tapjoy.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_mintegral.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_uniplay.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_adcolony.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_oneway.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_nend.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_admob.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_maio.ane"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="uparpu_air_demo.mxml">
+      <airExcludes/>
+    </application>
+  </applications>
+  <modules/>
+  <workers/>
+  <buildCSSFiles/>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+  <buildTargets>
+    <buildTarget buildTargetName="device" iosSettingsVersion="2" isCurrent="true" platformId="com.adobe.flexide.multiplatform.ios.platform" provisioningFile="/Users/stephen/Downloads/SDK_Demo_Dev_Dis_Pro.mobileprovision" releasePackageType="">
+      <airSettings airCertificatePath="/Users/stephen/Downloads/证书.p12" airTimestamp="true" anePathSet="true" version="1">
+        <airExcludes/>
+        <anePaths>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_tiktok.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_gdt.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_inmobi.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_baidu.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_mintegral.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_adcolony.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_nend.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_admob.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk.ane"/>
+          <anePathEntry path="/Users/stephen/Desktop/work/SuperAds/git/UpPlatform/up_sdk_ane/ane_release/uparpu_sdk_adapter_maio.ane"/>
+        </anePaths>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="true" hideAneLibSymbols="0" includePlatformLibs="false" nativeSDKPathString="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk" platformID="com.adobe.flexide.multiplatform.ios.platform" reducedSizePackaging="false" version="1"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+    <buildTarget airDownloadURL="" androidSettingsVersion="2" buildTargetName="device" isCurrent="true" platformId="com.adobe.flexide.multiplatform.android.platform">
+      <airSettings airCertificatePath="" airTimestamp="true" anePathSet="true" version="1">
+        <airExcludes/>
+        <anePaths/>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="true" hideAneLibSymbols="0" includePlatformLibs="false" platformID="com.adobe.flexide.multiplatform.android.platform" reducedSizePackaging="false" version="1"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+    <buildTarget buildTargetName="default" isCurrent="true" platformId="default">
+      <airSettings airCertificatePath="" airTimestamp="true" anePathSet="false" version="1">
+        <airExcludes/>
+        <anePaths/>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="false" hideAneLibSymbols="0" includePlatformLibs="false" platformID="default" reducedSizePackaging="false" version="1"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+  </buildTargets>
+</actionScriptProperties>

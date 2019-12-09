@@ -1,0 +1,22 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.anythink.adapter.plugin.okhttp</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>okhttp-3.12.1.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>okhttp-3.12.1.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

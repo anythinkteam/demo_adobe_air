@@ -1,0 +1,6 @@
+framework module UpArpuChartboostRewardedVideoAdapter {
+  umbrella header "UpArpuChartboostRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

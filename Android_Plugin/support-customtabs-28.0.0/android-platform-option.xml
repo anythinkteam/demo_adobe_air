@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>sdk_ane</description>
+	<copyright>anythink</copyright>
+	<packagedDependencies>
+		<packagedDependency>support-customtabs-28.0.0.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>android.support.customtabs</packageName>
+			<folderName>customtabs-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

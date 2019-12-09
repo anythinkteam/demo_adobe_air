@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>sdk_ane</description>
+	<copyright>anythink</copyright>
+	<packagedDependencies>
+		<packagedDependency>constraint-layout-solver.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>android.support.constraint</packageName>
+			<folderName>constraint-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

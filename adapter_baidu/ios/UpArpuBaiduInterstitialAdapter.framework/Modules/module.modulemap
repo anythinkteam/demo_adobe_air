@@ -1,0 +1,6 @@
+framework module UpArpuBaiduInterstitialAdapter {
+  umbrella header "UpArpuBaiduInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

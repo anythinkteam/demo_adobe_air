@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.com.anythink.sdk.ATAirConst"/>
+    <classEntry path="com.com.anythink.sdk.banner.ATBannerAd"/>
+    <classEntry path="com.com.anythink.sdk.banner.ATBannerListener"/>
+    <classEntry path="com.com.anythink.sdk.interstitial.ATInterstitialAd"/>
+    <classEntry path="com.com.anythink.sdk.interstitial.ATInterstitialListener"/>
+    <classEntry path="com.com.anythink.sdk.rewardedvideo.ATRewardedVideoAd"/>
+    <classEntry path="com.com.anythink.sdk.rewardedvideo.ATRewardedVideoListener"/>
+    <classEntry path="com.com.anythink.sdk.nativead.ATNativeAd"/>
+    <classEntry path="com.com.anythink.sdk.nativead.ATNativeListener"/>
+    <classEntry path="com.com.anythink.sdk.nativead.ATNativeBannerAdConfig"/>
+    <classEntry path="com.com.anythink.sdk.nativead.ATNativeItemProperty"/>
+    <classEntry path="com.com.anythink.sdk.nativebanner.ATNativeBannerAd"/>
+    <classEntry path="com.com.anythink.sdk.nativebanner.ATNativeBannerListener"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

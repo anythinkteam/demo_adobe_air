@@ -1,0 +1,36 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.anythink.sdk</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>AirBridgeLib.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>AirBridgeLib.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libAnythinkAneSDK.a</nativeLibrary>
+				<initializer>ATExtensionInitializer</initializer>
+				<finalizer>ATExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libAnythinkAneSDK.a</nativeLibrary>
+				<initializer>ATExtensionInitializer</initializer>
+				<finalizer>ATExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

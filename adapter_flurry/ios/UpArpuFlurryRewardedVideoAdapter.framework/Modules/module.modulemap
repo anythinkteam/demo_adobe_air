@@ -1,0 +1,6 @@
+framework module UpArpuFlurryRewardedVideoAdapter {
+  umbrella header "UpArpuFlurryRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

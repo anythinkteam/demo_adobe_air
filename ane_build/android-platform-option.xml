@@ -1,0 +1,26 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>sdk_ane</description>
+	<copyright>anythink</copyright>
+	<packagedDependencies>
+		<packagedDependency>anythinkCore.jar</packagedDependency>
+		<packagedDependency>anythinkBanner.jar</packagedDependency>
+		<packagedDependency>anythinkHeadbidding.jar</packagedDependency>
+		<packagedDependency>anythinkInterstitial.jar</packagedDependency>
+		<packagedDependency>anythinkNativead.jar</packagedDependency>
+		<packagedDependency>anythinkRewardedvideo.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.anythink.sdk</packageName>
+			<folderName>res_core</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.anythink.sdk</packageName>
+			<folderName>res_native</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.anythink.sdk</packageName>
+			<folderName>res_network</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

@@ -1,0 +1,6 @@
+framework module UpArpuNendInterstitialAdapter {
+  umbrella header "UpArpuNendInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

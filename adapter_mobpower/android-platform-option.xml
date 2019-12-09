@@ -1,0 +1,17 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>up_sdk_ane</description>
+	<copyright>uparpu</copyright>
+	<packagedDependencies>
+		<packagedDependency>funheroic-componentad.jar</packagedDependency>
+		<packagedDependency>funheroic-core.jar</packagedDependency>
+		<packagedDependency>funheroic-native.jar</packagedDependency>
+		<packagedDependency>funheroic-ui-common.jar</packagedDependency>
+		<packagedDependency>funheroic-videoad.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.uparpu.sdk</packageName>
+			<folderName>mp-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

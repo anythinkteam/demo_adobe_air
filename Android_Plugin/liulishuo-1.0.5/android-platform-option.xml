@@ -1,0 +1,8 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>sdk_ane</description>
+	<copyright>anythink</copyright>
+	<packagedDependencies>
+		<packagedDependency>liulishuo-sqlite-1.0.5.jar</packagedDependency>
+		<packagedDependency>liulishuo-okdownload-1.0.5.jar</packagedDependency>
+	</packagedDependencies>
+</platform>

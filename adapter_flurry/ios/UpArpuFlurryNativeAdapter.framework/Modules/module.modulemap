@@ -1,0 +1,6 @@
+framework module UpArpuFlurryNativeAdapter {
+  umbrella header "UpArpuFlurryNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

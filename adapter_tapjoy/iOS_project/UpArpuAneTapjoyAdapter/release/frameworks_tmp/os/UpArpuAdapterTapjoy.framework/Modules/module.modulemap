@@ -1,0 +1,6 @@
+framework module UpArpuAdapterTapjoy {
+  umbrella header "UpArpuAdapterTapjoy.h"
+
+  export *
+  module * { export * }
+}

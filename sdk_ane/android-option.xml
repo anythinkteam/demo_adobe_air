@@ -1,0 +1,15 @@
+<platform xmlns="http://ns.adobe.com/air/extension/13.0">
+	<description>anythink extra jar</description>
+	<copyright>anythink</copyright>
+	<packagedDependencies>
+		<packagedDependency>alipay.jar</packagedDependency>
+		<packagedDependency>android-support-v4.jar</packagedDependency>
+		<packagedDependency>true_sdk_lib.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.alipay.android.app.sdk</packageName>
+			<folderName>res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

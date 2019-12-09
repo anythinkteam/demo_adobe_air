@@ -1,0 +1,6 @@
+framework module UpArpuNendNativeAdapter {
+  umbrella header "UpArpuNendNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

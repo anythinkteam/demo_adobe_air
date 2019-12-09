@@ -1,0 +1,18 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
+    <description>up_sdk_adapter_facebook</description> 
+    <copyright>uparpu</copyright> 
+     <sdkVersion>3.5.0</sdkVersion>
+    <linkerOptions>
+        <option>-ObjC</option>
+        <option>-ios_version_min 8.0</option>
+    </linkerOptions>
+
+    <packagedDependencies> 
+        <packagedDependency>AppLovinSDK.framework</packagedDependency> 
+        <packagedDependency>UpArpuApplovinBannerAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuApplovinInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuApplovinNativeAdapter.framework</packagedDependency> 
+        <packagedDependency>UpArpuApplovinRewardedVideoAdapter.framework</packagedDependency> 
+    </packagedDependencies>
+</platform>
+

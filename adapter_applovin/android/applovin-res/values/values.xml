@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="uparpu_videoad_button_bg_color">#3eb4b4</color>
+    <color name="uparpu_videoad_button_bg_color_def">#333131</color>
+    <color name="uparpu_videoad_component_transparent">#ffffffff</color>
+    <color name="uparpu_videoad_component_white">#ffffffff</color>
+    <color name="uparpu_videoad_count_color">#343434</color>
+    <color name="uparpu_videoad_desc_color">#777777</color>
+    <color name="uparpu_videoad_icon_bg">#ffdadada</color>
+    <color name="uparpu_videoad_title_color">#000000</color>
+    <dimen name="uparpu_video_adchoice_size">35dp</dimen>
+    <dimen name="uparpu_video_button_height">40dp</dimen>
+    <dimen name="uparpu_video_button_text_size">16dp</dimen>
+    <dimen name="uparpu_video_close_margin_1">5dp</dimen>
+    <dimen name="uparpu_video_close_margin_2">10dp</dimen>
+    <dimen name="uparpu_video_close_size">44dp</dimen>
+    <dimen name="uparpu_video_desc_margin_top_bottom_1">35dp</dimen>
+    <dimen name="uparpu_video_desc_text_size">12dp</dimen>
+    <dimen name="uparpu_video_icon_margin_bottom_1">20dp</dimen>
+    <dimen name="uparpu_video_icon_margin_left_right_2">15dp</dimen>
+    <dimen name="uparpu_video_icon_margin_top_1">35dp</dimen>
+    <dimen name="uparpu_video_icon_size_1">50dp</dimen>
+    <dimen name="uparpu_video_title_size">18dp</dimen>
+</resources>

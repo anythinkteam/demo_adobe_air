@@ -1,0 +1,36 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.uparpu.adapter.baidu</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		 <platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>uparpuNetworkBaidu.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>uparpuNetworkBaidu.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libUpArpuAneBaiduAdapter.a</nativeLibrary>
+				<initializer>UPArpuBaiduExtensionInitializer</initializer>
+				<finalizer>UPArpuBaiduExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libUpArpuAneBaiduAdapter.a</nativeLibrary>
+				<initializer>UPArpuBaiduExtensionInitializer</initializer>
+				<finalizer>UPArpuBaiduExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

@@ -1,0 +1,6 @@
+framework module UpArpuFlurryBannerAdapter {
+  umbrella header "UpArpuFlurryBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,8 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>up_sdk_ane</description>
+	<copyright>uparpu</copyright>
+	<packagedDependencies>
+		<packagedDependency>mediationsdk-6.8.1.jar</packagedDependency>
+	</packagedDependencies>
+
+</platform>

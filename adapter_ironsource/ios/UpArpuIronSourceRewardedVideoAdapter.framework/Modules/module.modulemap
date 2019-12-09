@@ -1,0 +1,6 @@
+framework module UpArpuIronSourceRewardedVideoAdapter {
+  umbrella header "UpArpuIronSourceRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

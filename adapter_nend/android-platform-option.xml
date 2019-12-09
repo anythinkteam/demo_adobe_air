@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<description>up_sdk_ane</description>
+	<copyright>uparpu</copyright>
+	<packagedDependencies>
+		<packagedDependency>nend-sdk-v5.1.0.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>net.nend.android</packageName>
+			<folderName>nend-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

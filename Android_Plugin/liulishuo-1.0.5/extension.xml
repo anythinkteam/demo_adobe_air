@@ -1,0 +1,22 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.anythink.adapter.plugin.liulishuo</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>liulishuo-okhttp-1.0.5.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>liulishuo-okhttp-1.0.5.jar</nativeLibrary>
+				<initializer>com.uparpu.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

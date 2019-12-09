@@ -1,0 +1,16 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
+    <description>up_sdk_adapter_unityads</description> 
+    <copyright>uparpu</copyright> 
+     <sdkVersion>3.5.0</sdkVersion>
+    <linkerOptions>
+        <option>-ObjC</option>
+        <option>-ios_version_min 8.0</option>
+    </linkerOptions>
+
+    <packagedDependencies> 
+        <packagedDependency>MobPowerSDK.framework</packagedDependency>
+        <packagedDependency>MobPowerNative.framework</packagedDependency>
+        <packagedDependency>UpArpuMobPowerNativeAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>
+

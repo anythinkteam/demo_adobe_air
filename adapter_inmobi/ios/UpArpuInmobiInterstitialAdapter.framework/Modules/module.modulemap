@@ -1,0 +1,6 @@
+framework module UpArpuInmobiInterstitialAdapter {
+  umbrella header "UpArpuInmobiInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

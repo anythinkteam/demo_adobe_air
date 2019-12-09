@@ -1,0 +1,36 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.anythink.adapter.facebook</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>anythinkNetworkFacebook.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>anythinkNetworkFacebook.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libAnyThinkAneFacebookAdapter.a</nativeLibrary>
+				<initializer>AnyThinkFacebookExtensionInitializer</initializer>
+				<finalizer>AnyThinkFacebookExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libAnyThinkAneFacebookAdapter.a</nativeLibrary>
+				<initializer>AnyThinkFacebookExtensionInitializer</initializer>
+				<finalizer>AnyThinkFacebookExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

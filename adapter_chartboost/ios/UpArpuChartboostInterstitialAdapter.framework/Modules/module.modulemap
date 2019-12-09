@@ -1,0 +1,6 @@
+framework module UpArpuChartboostInterstitialAdapter {
+  umbrella header "UpArpuChartboostInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}
