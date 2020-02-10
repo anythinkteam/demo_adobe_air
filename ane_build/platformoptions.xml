@@ -51,6 +51,9 @@
         <packagedDependency>AnyThinkInterstitial.framework</packagedDependency> 
         <packagedDependency>AnyThinkHeaderBidding.framework</packagedDependency> 
         <packagedDependency>AnyThinkMyOffer.framework</packagedDependency> 
+        <packagedDependency>AnyThinkMyOfferInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkMyOfferRewardedVideoAdapter.framework</packagedDependency> 
+        <packagedDependency>TraminiSDK.framework</packagedDependency> 
 
     </packagedDependencies>
 </platform>

@@ -44,14 +44,17 @@
 		DC70D9F7225F8E0E0090897E /* FREUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DC70D9EC225F8C620090897E /* FREUtils.h */; };
 		DC70D9FB225F93480090897E /* ATAneBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DC70D9FA225F93480090897E /* ATAneBase.h */; };
 		DC70D9FD225F935E0090897E /* ATAneBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC70D9FC225F935E0090897E /* ATAneBase.m */; };
-		DC84166B239646410018E69B /* AnyThinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841663239646400018E69B /* AnyThinkSDK.framework */; };
-		DC84166C239646410018E69B /* AnyThinkHeaderBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841664239646400018E69B /* AnyThinkHeaderBidding.framework */; };
-		DC84166D239646410018E69B /* AnyThinkSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841665239646400018E69B /* AnyThinkSplash.framework */; };
-		DC84166E239646410018E69B /* AnyThinkRewardedVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841666239646400018E69B /* AnyThinkRewardedVideo.framework */; };
-		DC84166F239646410018E69B /* AnyThinkNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841667239646400018E69B /* AnyThinkNative.framework */; };
-		DC841670239646410018E69B /* AnyThinkBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841668239646400018E69B /* AnyThinkBanner.framework */; };
-		DC841671239646410018E69B /* AnyThinkMyOffer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC841669239646400018E69B /* AnyThinkMyOffer.framework */; };
-		DC841672239646410018E69B /* AnyThinkInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84166A239646410018E69B /* AnyThinkInterstitial.framework */; };
+		DCCB50E323F19223000257FD /* AnyThinkNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50D723F19221000257FD /* AnyThinkNative.framework */; };
+		DCCB50E423F19223000257FD /* AnyThinkInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50D923F19222000257FD /* AnyThinkInterstitial.framework */; };
+		DCCB50E523F19223000257FD /* AnyThinkSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50DA23F19222000257FD /* AnyThinkSplash.framework */; };
+		DCCB50E623F19223000257FD /* AnyThinkMyOffer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50DB23F19222000257FD /* AnyThinkMyOffer.framework */; };
+		DCCB50E723F19223000257FD /* AnyThinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50DC23F19222000257FD /* AnyThinkSDK.framework */; };
+		DCCB50E823F19223000257FD /* AnyThinkMyOfferInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50DD23F19222000257FD /* AnyThinkMyOfferInterstitialAdapter.framework */; };
+		DCCB50E923F19223000257FD /* AnyThinkRewardedVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50DE23F19222000257FD /* AnyThinkRewardedVideo.framework */; };
+		DCCB50EA23F19223000257FD /* AnyThinkHeaderBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50DF23F19222000257FD /* AnyThinkHeaderBidding.framework */; };
+		DCCB50EB23F19223000257FD /* AnyThinkMyOfferRewardedVideoAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50E023F19223000257FD /* AnyThinkMyOfferRewardedVideoAdapter.framework */; };
+		DCCB50EC23F19223000257FD /* TraminiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50E123F19223000257FD /* TraminiSDK.framework */; };
+		DCCB50ED23F19223000257FD /* AnyThinkBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCB50E223F19223000257FD /* AnyThinkBanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,14 +102,18 @@
 		DC84164823963BB80018E69B /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkNative.framework; path = ../SDK/AnyThinkNative.framework; sourceTree = "<group>"; };
 		DC84164923963BB80018E69B /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkRewardedVideo.framework; path = ../SDK/AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
 		DC84164A23963BB80018E69B /* AnyThinkInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkInterstitial.framework; path = ../SDK/AnyThinkInterstitial.framework; sourceTree = "<group>"; };
-		DC841663239646400018E69B /* AnyThinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkSDK.framework; path = SDK/AnyThinkSDK.framework; sourceTree = "<group>"; };
-		DC841664239646400018E69B /* AnyThinkHeaderBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkHeaderBidding.framework; path = SDK/AnyThinkHeaderBidding.framework; sourceTree = "<group>"; };
-		DC841665239646400018E69B /* AnyThinkSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkSplash.framework; path = SDK/AnyThinkSplash.framework; sourceTree = "<group>"; };
-		DC841666239646400018E69B /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkRewardedVideo.framework; path = SDK/AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
-		DC841667239646400018E69B /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkNative.framework; path = SDK/AnyThinkNative.framework; sourceTree = "<group>"; };
-		DC841668239646400018E69B /* AnyThinkBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkBanner.framework; path = SDK/AnyThinkBanner.framework; sourceTree = "<group>"; };
-		DC841669239646400018E69B /* AnyThinkMyOffer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkMyOffer.framework; path = SDK/AnyThinkMyOffer.framework; sourceTree = "<group>"; };
-		DC84166A239646410018E69B /* AnyThinkInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkInterstitial.framework; path = SDK/AnyThinkInterstitial.framework; sourceTree = "<group>"; };
+		DCCB50D723F19221000257FD /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkNative.framework; path = SDK/AnyThinkNative.framework; sourceTree = "<group>"; };
+		DCCB50D823F19222000257FD /* AnyThinkSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AnyThinkSDK.bundle; path = SDK/AnyThinkSDK.bundle; sourceTree = "<group>"; };
+		DCCB50D923F19222000257FD /* AnyThinkInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkInterstitial.framework; path = SDK/AnyThinkInterstitial.framework; sourceTree = "<group>"; };
+		DCCB50DA23F19222000257FD /* AnyThinkSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkSplash.framework; path = SDK/AnyThinkSplash.framework; sourceTree = "<group>"; };
+		DCCB50DB23F19222000257FD /* AnyThinkMyOffer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkMyOffer.framework; path = SDK/AnyThinkMyOffer.framework; sourceTree = "<group>"; };
+		DCCB50DC23F19222000257FD /* AnyThinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkSDK.framework; path = SDK/AnyThinkSDK.framework; sourceTree = "<group>"; };
+		DCCB50DD23F19222000257FD /* AnyThinkMyOfferInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkMyOfferInterstitialAdapter.framework; path = SDK/AnyThinkMyOfferInterstitialAdapter.framework; sourceTree = "<group>"; };
+		DCCB50DE23F19222000257FD /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkRewardedVideo.framework; path = SDK/AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
+		DCCB50DF23F19222000257FD /* AnyThinkHeaderBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkHeaderBidding.framework; path = SDK/AnyThinkHeaderBidding.framework; sourceTree = "<group>"; };
+		DCCB50E023F19223000257FD /* AnyThinkMyOfferRewardedVideoAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkMyOfferRewardedVideoAdapter.framework; path = SDK/AnyThinkMyOfferRewardedVideoAdapter.framework; sourceTree = "<group>"; };
+		DCCB50E123F19223000257FD /* TraminiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TraminiSDK.framework; path = SDK/TraminiSDK.framework; sourceTree = "<group>"; };
+		DCCB50E223F19223000257FD /* AnyThinkBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyThinkBanner.framework; path = SDK/AnyThinkBanner.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +121,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC84166B239646410018E69B /* AnyThinkSDK.framework in Frameworks */,
-				DC84166D239646410018E69B /* AnyThinkSplash.framework in Frameworks */,
-				DC841670239646410018E69B /* AnyThinkBanner.framework in Frameworks */,
-				DC84166E239646410018E69B /* AnyThinkRewardedVideo.framework in Frameworks */,
-				DC841672239646410018E69B /* AnyThinkInterstitial.framework in Frameworks */,
-				DC84166F239646410018E69B /* AnyThinkNative.framework in Frameworks */,
-				DC841671239646410018E69B /* AnyThinkMyOffer.framework in Frameworks */,
-				DC84166C239646410018E69B /* AnyThinkHeaderBidding.framework in Frameworks */,
+				DCCB50E423F19223000257FD /* AnyThinkInterstitial.framework in Frameworks */,
+				DCCB50E923F19223000257FD /* AnyThinkRewardedVideo.framework in Frameworks */,
+				DCCB50E823F19223000257FD /* AnyThinkMyOfferInterstitialAdapter.framework in Frameworks */,
+				DCCB50EA23F19223000257FD /* AnyThinkHeaderBidding.framework in Frameworks */,
+				DCCB50E523F19223000257FD /* AnyThinkSplash.framework in Frameworks */,
+				DCCB50E323F19223000257FD /* AnyThinkNative.framework in Frameworks */,
+				DCCB50EC23F19223000257FD /* TraminiSDK.framework in Frameworks */,
+				DCCB50EB23F19223000257FD /* AnyThinkMyOfferRewardedVideoAdapter.framework in Frameworks */,
+				DCCB50ED23F19223000257FD /* AnyThinkBanner.framework in Frameworks */,
+				DCCB50E623F19223000257FD /* AnyThinkMyOffer.framework in Frameworks */,
+				DCCB50E723F19223000257FD /* AnyThinkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,14 +141,18 @@
 		DC41C3E722535F7500796879 = {
 			isa = PBXGroup;
 			children = (
-				DC841668239646400018E69B /* AnyThinkBanner.framework */,
-				DC841664239646400018E69B /* AnyThinkHeaderBidding.framework */,
-				DC84166A239646410018E69B /* AnyThinkInterstitial.framework */,
-				DC841669239646400018E69B /* AnyThinkMyOffer.framework */,
-				DC841667239646400018E69B /* AnyThinkNative.framework */,
-				DC841666239646400018E69B /* AnyThinkRewardedVideo.framework */,
-				DC841663239646400018E69B /* AnyThinkSDK.framework */,
-				DC841665239646400018E69B /* AnyThinkSplash.framework */,
+				DCCB50E223F19223000257FD /* AnyThinkBanner.framework */,
+				DCCB50DF23F19222000257FD /* AnyThinkHeaderBidding.framework */,
+				DCCB50D923F19222000257FD /* AnyThinkInterstitial.framework */,
+				DCCB50DB23F19222000257FD /* AnyThinkMyOffer.framework */,
+				DCCB50DD23F19222000257FD /* AnyThinkMyOfferInterstitialAdapter.framework */,
+				DCCB50E023F19223000257FD /* AnyThinkMyOfferRewardedVideoAdapter.framework */,
+				DCCB50D723F19221000257FD /* AnyThinkNative.framework */,
+				DCCB50DE23F19222000257FD /* AnyThinkRewardedVideo.framework */,
+				DCCB50D823F19222000257FD /* AnyThinkSDK.bundle */,
+				DCCB50DC23F19222000257FD /* AnyThinkSDK.framework */,
+				DCCB50DA23F19222000257FD /* AnyThinkSplash.framework */,
+				DCCB50E123F19223000257FD /* TraminiSDK.framework */,
 				DC41C3F222535F7500796879 /* AnythinkAneSDK */,
 				DC3FBA562265D91D006495D2 /* libAnythinkAneSDK.a */,
 				DC84164223963BB70018E69B /* Frameworks */,

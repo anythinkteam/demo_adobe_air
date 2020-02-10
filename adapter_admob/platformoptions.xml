@@ -1,7 +1,7 @@
 <platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
-    <description>up_sdk_adapter_facebook</description> 
-    <copyright>uparpu</copyright> 
-     <sdkVersion>3.5.0</sdkVersion>
+    <description>sdk_adapter_admob</description> 
+    <copyright>anythink</copyright> 
+     <sdkVersion>5.4.5</sdkVersion>
     <linkerOptions>
         <option>-ObjC</option>
         <option>-ios_version_min 8.0</option>
@@ -9,10 +9,11 @@
 
     <packagedDependencies> 
         <packagedDependency>GoogleMobileAds.framework</packagedDependency> 
-        <packagedDependency>UpArpuAdmobBannerAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuAdmobInterstitialAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuAdmobNativeAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuAdmobRewardedVideoAdapter.framework</packagedDependency> 
+        <packagedDependency>PersonalizedAdConsent.framework</packagedDependency> 
+        <packagedDependency>AnyThinkAdmobBannerAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkAdmobInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkAdmobNativeAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkAdmobRewardedVideoAdapter.framework</packagedDependency> 
     </packagedDependencies>
 </platform>
 

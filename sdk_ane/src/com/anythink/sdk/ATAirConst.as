@@ -3,7 +3,7 @@ package com.anythink.sdk
 	public class ATAirConst
 	{
 		
-		public static const EXTENSION_ID:String = "com.uparpu.sdk";
+		public static const EXTENSION_ID:String = "com.anythink.sdk";
 		public static const setDebugLogMethod:String = "setDebugLog";
 		public static const initMethod:String = "initSDK";
 		public static const setGDPRLevelMethod:String = "setGDPRLevel";

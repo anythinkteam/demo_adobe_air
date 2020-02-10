@@ -102,7 +102,9 @@ DEFINE_ANE_FUNCTION(showGdprAuth) {
 //    }
 
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
-    [[ATAPI sharedInstance] presentDataConsentDialogInViewController:rootViewController];
+    [[ATAPI sharedInstance] presentDataConsentDialogInViewController:rootViewController dismissalCallback:^{
+        
+    }];
     
     return result;
 }

@@ -56,6 +56,7 @@ extern NSString *const kNetworkNameMaio;
 extern NSString *const kNetworkNameSigmob;
 extern NSString *const kNetworkNameMyOffer;
 extern NSString *const kNetworkNameKS;
+extern NSString *const kNetworkNameOgury;
 
 extern NSString *const kInmobiGDPRStringKey;
 extern NSString *const kInmobiConsentStringKey;
@@ -82,17 +83,16 @@ typedef NS_ENUM(NSInteger, ATDataConsentSet) {
     //Let it default to forbidden if not set
     ATDataConsentSetUnknown = 0,
     ATDataConsentSetPersonalized = 1,
-    ATDataConsentSetNonpersonalized = 2,
-    ATDataConsentSetForbidden = 3
+    ATDataConsentSetNonpersonalized = 2
 };
 
 @interface ATAPI : NSObject
 
 +(NSDictionary<NSNumber*, NSString*>*)networkNameMap;
 +(void) setLogEnabled:(BOOL)logEnabled;
-
++(void) integrationChecking;
 +(instancetype)sharedInstance;
-+(BOOL) getMPisInit ;
++(BOOL) getMPisInit;
 +(void) setMPisInit:(BOOL)MPisInit;
 /**
  * Inspect the error parameter to see what's the matter.
@@ -116,7 +116,7 @@ typedef NS_ENUM(NSInteger, ATDataConsentSet) {
  * Show the data consent dialog using the specified constroller as the presenting view controller.
  * viewController might be nil, for which the root view controller of the window will be used instead.
  */
--(void) presentDataConsentDialogInViewController:(UIViewController*)viewController;
+-(void) presentDataConsentDialogInViewController:(UIViewController*)viewController dismissalCallback:(void(^)(void))dismissCallback;
 /**
  * Defaults to forbidden;
  * Thread-safe.

@@ -1,158 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ffa2f44-989f-4776-9319-dfdead46d260" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3ffa2f44-989f-4776-9319-dfdead46d260" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/demo_adobe_air.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../air_demo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sdk_ane/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/anythink_android_bridge/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/anythink_android_bridge/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/extension.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/extension.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/Release-universal/libUpArpuAneAdmobAdapter.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.xcodeproj/project.xcworkspace/xcuserdata/stephen.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.xcodeproj/xcuserdata/stephen.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter/FlashRuntimeExtensions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/iOS_Project/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter/UpArpuAneAdmobAdapter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/GoogleMobileAds" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/GoogleMobileAds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAdChoicesView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAdChoicesView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAdSize.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAdSize.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAppOpenAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAppOpenAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADBannerView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADBannerView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADExtras.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADExtras.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInAppPurchase.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInAppPurchase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInterstitial.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInterstitial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADMediaContent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADMediaContent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADMediaView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADMediaView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdImage.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdImage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdMediaAdLoaderOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdMediaAdLoaderOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeContentAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRequestConfiguration.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRequestConfiguration.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRequestError.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRequestError.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRewardedAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADRewardedAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADSearchBannerView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADSearchBannerView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADSearchRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADSearchRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADServerSideVerificationOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADServerSideVerificationOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADVideoController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADVideoController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADVideoOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GADVideoOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GoogleMobileAds.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GoogleMobileAds.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdNotificationSource.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdNotificationSource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAppInstallAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeContentAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdapter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdapter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationBannerAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationBannerAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationInterstitialAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationInterstitialAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationRewardedAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/Mediation/GADMediationRewardedAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBAdapter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBAdapter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBRequestParameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBRequestParameters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/ios/GoogleMobileAds.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobBannerAdapter.framework/Headers/UpArpuAdmobBannerAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobBannerAdapter.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobBannerAdapter.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobBannerAdapter.framework/UpArpuAdmobBannerAdapter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobInterstitialAdapter.framework/Headers/UpArpuAdmobInterstitialAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobInterstitialAdapter.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobInterstitialAdapter.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobInterstitialAdapter.framework/UpArpuAdmobInterstitialAdapter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobNativeAdapter.framework/Headers/UpArpuAdmobAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobNativeAdapter.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobNativeAdapter.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobNativeAdapter.framework/UpArpuAdmobNativeAdapter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobRewardedVideoAdapter.framework/Headers/UpArpuAdmobRewardedVideoAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobRewardedVideoAdapter.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobRewardedVideoAdapter.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/UpArpuAdmobRewardedVideoAdapter.framework/UpArpuAdmobRewardedVideoAdapter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/ios/libUpArpuAneAdmobAdapter.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/make_ane.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/make_ane.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter_admob/platformoptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter_admob/platformoptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../air_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../air_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/android/library.swf" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/android/library.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/anythink_sdk.ane" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/anythink_sdk.ane" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/default/library.swf" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/default/library.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkBanner.framework/AnyThinkBanner" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkBanner.framework/AnyThinkBanner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkBanner.framework/Headers/ATBannerDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkBanner.framework/Headers/ATBannerDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkHeaderBidding.framework/AnyThinkHeaderBidding" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkHeaderBidding.framework/AnyThinkHeaderBidding" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkInterstitial.framework/AnyThinkInterstitial" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkInterstitial.framework/AnyThinkInterstitial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkInterstitial.framework/Headers/ATInterstitialDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkInterstitial.framework/Headers/ATInterstitialDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkMyOffer.framework/AnyThinkMyOffer" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkMyOffer.framework/AnyThinkMyOffer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkNative.framework/AnyThinkNative" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkNative.framework/AnyThinkNative" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkNative.framework/Headers/ATNativeADDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkNative.framework/Headers/ATNativeADDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkNative.framework/Headers/ATNativeSplashWrapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkNative.framework/Headers/ATNativeSplashWrapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkRewardedVideo.framework/AnyThinkRewardedVideo" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkRewardedVideo.framework/AnyThinkRewardedVideo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkRewardedVideo.framework/Headers/ATRewardedVideoDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkRewardedVideo.framework/Headers/ATRewardedVideoDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkSDK.framework/AnyThinkSDK" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkSDK.framework/AnyThinkSDK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkSDK.framework/Headers/ATAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkSDK.framework/Headers/ATAPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/AnyThinkSDK.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/AnyThinkSDK.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/libAnythinkAneSDK.a" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/libAnythinkAneSDK.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/ios/library.swf" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/ios/library.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/library.swf" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/library.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/platformoptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/platformoptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_build/sdk_ane.swc" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_build/sdk_ane.swc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ane_release/anythink_sdk.ane" beforeDir="false" afterPath="$PROJECT_DIR$/../ane_release/anythink_sdk.ane" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/Main-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/Main-app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/Main-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/Main-app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/Main.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/Main.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/Main.swf" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/Main.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/AnythinkAneSDK.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/AnythinkAneSDK.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/AnythinkAneSDK.xcodeproj/project.xcworkspace/xcuserdata/stephen.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/AnythinkAneSDK.xcodeproj/project.xcworkspace/xcuserdata/stephen.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/AnythinkAneSDK/Functions/ATAneBase.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/AnythinkAneSDK/Functions/ATAneBase.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/Release-universal/libAnythinkAneSDK.a" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/Release-universal/libAnythinkAneSDK.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkBanner.framework/AnyThinkBanner" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkBanner.framework/AnyThinkBanner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkBanner.framework/Headers/ATBannerDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkBanner.framework/Headers/ATBannerDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkHeaderBidding.framework/AnyThinkHeaderBidding" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkHeaderBidding.framework/AnyThinkHeaderBidding" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkInterstitial.framework/AnyThinkInterstitial" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkInterstitial.framework/AnyThinkInterstitial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkInterstitial.framework/Headers/ATInterstitialDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkInterstitial.framework/Headers/ATInterstitialDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkMyOffer.framework/AnyThinkMyOffer" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkMyOffer.framework/AnyThinkMyOffer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkNative.framework/AnyThinkNative" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkNative.framework/AnyThinkNative" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkNative.framework/Headers/ATNativeADDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkNative.framework/Headers/ATNativeADDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkNative.framework/Headers/ATNativeSplashWrapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkNative.framework/Headers/ATNativeSplashWrapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkRewardedVideo.framework/AnyThinkRewardedVideo" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkRewardedVideo.framework/AnyThinkRewardedVideo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkRewardedVideo.framework/Headers/ATRewardedVideoDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkRewardedVideo.framework/Headers/ATRewardedVideoDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSDK.framework/AnyThinkSDK" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSDK.framework/AnyThinkSDK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSDK.framework/Headers/ATAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSDK.framework/Headers/ATAPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSDK.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSDK.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSplash.framework/AnyThinkSplash" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSplash.framework/AnyThinkSplash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSplash.framework/Headers/ATSplashDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/AnythinkAneSDK/SDK/AnyThinkSplash.framework/Headers/ATSplashDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sdk_ane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sdk_ane/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sdk_ane/bin/sdk_ane.swc" beforeDir="false" afterPath="$PROJECT_DIR$/../sdk_ane/bin/sdk_ane.swc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sdk_ane/sdk_ane.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sdk_ane/sdk_ane.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sdk_ane/src/com/anythink/sdk/ATAirConst.as" beforeDir="false" afterPath="$PROJECT_DIR$/../sdk_ane/src/com/anythink/sdk/ATAirConst.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-144146195">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="actionScriptProperties" value="1" />
-          <entry key="as" value="1" />
-          <entry key="flexLibProperties" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="project" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ActionScript" value="1" />
-          <entry key="Eclipse" value="1" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="actionScriptProperties" value="9" />
-          <entry key="flexLibProperties" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdk_ane_adapter.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.flexLibProperties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.actionScriptProperties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/anythink/adapter/ATAdapter.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.project" />
-        <option value="$PROJECT_DIR$/sdk_ane_adapter.iml" />
-        <option value="$PROJECT_DIR$/.flexLibProperties" />
-        <option value="$PROJECT_DIR$/.actionScriptProperties" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1280" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="up_sdk_ane_adapter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sdk_ane_adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="up_sdk_ane_adapter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sdk_ane_adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="up_sdk_ane_adapter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sdk_ane_adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="up_sdk_ane_adapter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sdk_ane_adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1XcGKI9l3dF3I5en4WM1YvjSG8J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -168,18 +208,6 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -194,12 +222,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -207,15 +237,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -228,90 +270,13 @@
       <option name="presentableId" value="Default" />
       <updated>1575342364534</updated>
       <workItem from="1575342367889" duration="1481000" />
+      <workItem from="1581337908347" duration="28000" />
+      <workItem from="1581345427141" duration="23000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1481000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CSS-X-Fire" />
-      <window_info anchor="bottom" id="Profiler" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32928064" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk_ane_adapter.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.flexLibProperties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.actionScriptProperties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/anythink/adapter/ATAdapter.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

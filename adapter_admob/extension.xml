@@ -1,5 +1,5 @@
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
-	<id>com.uparpu.adapter.admob</id>
+	<id>com.anythink.adapter.admob</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="default">
@@ -20,16 +20,16 @@
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneAdmobAdapter.a</nativeLibrary>
-				<initializer>UPArpuAdmobExtensionInitializer</initializer>
-				<finalizer>UPArpuAdmobExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneAdmobAdapter.a</nativeLibrary>
+				<initializer>ATAdmobExtensionInitializer</initializer>
+				<finalizer>ATAdmobExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-x86">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneAdmobAdapter.a</nativeLibrary>
-				<initializer>UPArpuAdmobExtensionInitializer</initializer>
-				<finalizer>UPArpuAdmobExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneAdmobAdapter.a</nativeLibrary>
+				<initializer>ATAdmobExtensionInitializer</initializer>
+				<finalizer>ATAdmobExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 	</platforms>

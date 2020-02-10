@@ -17,7 +17,7 @@
     <filename>demo</filename>
 
     <!-- Determines the architecture of the Windows captive app (non-Flash Builder workflows only)-->
-    <architecture/>
+<!--    <architecture/>-->
 
     <!-- The name that is displayed in the AIR application installer.
     May have multiple values for each language. See samples or xsd schema file. Optional. -->
