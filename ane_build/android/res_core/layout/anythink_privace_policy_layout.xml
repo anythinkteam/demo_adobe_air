@@ -5,15 +5,6 @@
     android:background="#ffffff">
 
 
-    <ImageView
-        android:id="@+id/anythink_policy_close_view"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_alignParentRight="true"
-        android:layout_margin="15dp"
-        android:src="@drawable/anythink_core_icon_close" />
-
-
     <LinearLayout
         android:id="@+id/anythink_policy_loading_view"
         android:layout_width="match_parent"
@@ -28,7 +19,7 @@
         android:id="@+id/anythink_policy_content_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/anythink_policy_close_view"
+        android:layout_marginTop="39dp"
         android:visibility="gone">
 
         <TextView

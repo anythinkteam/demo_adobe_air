@@ -18,7 +18,6 @@
         android:textColor="@android:color/white"
         android:textSize="15sp" />
 
-        
     <ImageView
         android:id="@+id/anythink_myoffer_iv_banner_icon"
         android:layout_width="51dp"
@@ -52,7 +51,6 @@
         android:singleLine="true"
         android:textColor="#2A2D34"
         android:textSize="12sp" />
-
 
     <ImageView
         android:id="@+id/anythink_myoffer_iv_logo"
