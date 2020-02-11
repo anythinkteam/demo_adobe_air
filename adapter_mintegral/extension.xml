@@ -1,5 +1,5 @@
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
-	<id>com.uparpu.adapter.mintegral</id>
+	<id>com.anythink.adapter.mintegral</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="default">
@@ -8,14 +8,14 @@
 		</platform>
 		<platform name="Android-ARM">
 			<applicationDeployment>
-				<nativeLibrary>uparpuNetworkMintegral.jar</nativeLibrary>
-				<initializer>com.uparpu.ane.SDK</initializer>
+				<nativeLibrary>anythinkNetworkMintegral.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
 			</applicationDeployment>
 		</platform>
 		<platform name="Android-x86">
 			<applicationDeployment>
-				<nativeLibrary>uparpuNetworkMintegral.jar</nativeLibrary>
-				<initializer>com.uparpu.ane.SDK</initializer>
+				<nativeLibrary>anythinkNetworkMintegral.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-ARM">

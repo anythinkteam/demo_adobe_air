@@ -1,16 +1,16 @@
 <platform xmlns="http://ns.adobe.com/air/extension/4.0">
-	<description>up_sdk_ane</description>
-	<copyright>uparpu</copyright>
+	<description>anythink_sdk_ane</description>
+	<copyright>anythink</copyright>
 	<packagedDependencies>
 		<packagedDependency>mintegral-alphab.jar</packagedDependency>
 		<packagedDependency>mintegral-common.jar</packagedDependency>
 		<packagedDependency>mintegral-interstitial.jar</packagedDependency>
 		<packagedDependency>mintegral-interstitialvideo.jar</packagedDependency>
-		<packagedDependency>mintegral-mtgdownloads.jar</packagedDependency>		
+		<packagedDependency>mintegral-mtgbanner.jar</packagedDependency>	
+		<packagedDependency>mintegral-mtgbid.jar</packagedDependency>
 		<packagedDependency>mintegral-mtgjscommon.jar</packagedDependency>
 		<packagedDependency>mintegral-mtgnative.jar</packagedDependency>
 		<packagedDependency>mintegral-nativeex.jar</packagedDependency>
-		<packagedDependency>mintegral-optimizedata.jar</packagedDependency>
 		<packagedDependency>mintegral-playercommon.jar</packagedDependency>
 		<packagedDependency>mintegral-reward.jar</packagedDependency>		
 		<packagedDependency>mintegral-videocommon.jar</packagedDependency>
@@ -19,8 +19,52 @@
 	</packagedDependencies>
 	<packagedResources>
 		<packagedResource>
-			<packageName>com.uparpu.sdk</packageName>
-			<folderName>mtg-res</folderName>
+			<packageName>com.mintegral.sdk.banner</packageName>
+			<folderName>mtg-res-banner</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.bid</packageName>
+			<folderName>mtg-res-bid</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.common</packageName>
+			<folderName>mtg-res-common</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.interstitial</packageName>
+			<folderName>mtg-res-interstitial</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.jscommon</packageName>
+			<folderName>mtg-res-jscommon</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.native</packageName>
+			<folderName>mtg-res-native</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.nativeex</packageName>
+			<folderName>mtg-res-nativeex</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.playercommon</packageName>
+			<folderName>mtg-res-playercommon</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.reward</packageName>
+			<folderName>mtg-res-reward</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.videocommon</packageName>
+			<folderName>mtg-res-videocommon</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.videofeeds</packageName>
+			<folderName>mtg-res-videofeeds</folderName>
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.mintegral.sdk.videojs</packageName>
+			<folderName>mtg-res-videojs</folderName>
 		</packagedResource>
 	</packagedResources>
 </platform>

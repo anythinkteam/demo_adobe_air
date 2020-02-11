@@ -51,7 +51,7 @@
         <!--<extensionID>com.anythink.adapter.plugin.constraintlayout</extensionID>-->
         <!--<extensionID>com.anythink.adapter.plugin.supportv4</extensionID>-->
         <extensionID>com.anythink.sdk</extensionID>
-        <!--<extensionID>com.anythink.adapter.mintegral</extensionID>-->
+        <extensionID>com.anythink.adapter.mintegral</extensionID>
         <extensionID>com.anythink.adapter.facebook</extensionID>
         <!--<extensionID>com.anythink.adapter.toutiao</extensionID>-->
         <!--<extensionID>com.anythink.adapter.gdt</extensionID>-->
@@ -66,11 +66,12 @@
         <!--<extensionID>com.anythink.adapter.vungle</extensionID>-->
         <!--<extensionID>com.anythink.adapter.baidu</extensionID>-->
         <!--<extensionID>com.anythink.adapter.tapjoy</extensionID>-->
-        <!--<extensionID>com.anythink.adapter.maio</extensionID>-->
+        <extensionID>com.anythink.adapter.maio</extensionID>
         <!--<extensionID>com.anythink.adapter.uniplay</extensionID>-->
         <!--<extensionID>com.anythink.adapter.adcolony</extensionID>-->
         <!--<extensionID>com.anythink.adapter.oneway</extensionID>-->
-        <!--<extensionID>com.anythink.adapter.nend</extensionID>-->
+        <extensionID>com.anythink.adapter.nend</extensionID>
+        <extensionID>com.anythink.adapter.plugin.constraintlayout</extensionID>
     </extensions>
 
     <!-- Settings for the application's initial window. Required. -->
@@ -306,36 +307,75 @@
                     android:name="com.facebook.ads.AudienceNetworkContentProvider"
                     android:authorities="com.superapp.filemanager.AudienceNetworkContentProvider"
                     android:exported="false" />
+
 <!--               nend                   -->
                 <activity
-            android:name="net.nend.android.internal.ui.activities.fullboard.NendAdFullBoardActivity"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-        <activity
-            android:name="net.nend.android.internal.ui.activities.interstitial.NendAdInterstitialActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.NendAd.Interstitial" />
-        <activity
-            android:name="net.nend.android.internal.ui.activities.video.NendAdInterstitialVideoActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-            android:hardwareAccelerated="true"
-            android:screenOrientation="behind"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <activity
-            android:name="net.nend.android.internal.ui.activities.video.NendAdRewardedVideoActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-            android:hardwareAccelerated="true"
-            android:screenOrientation="behind"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <activity
-            android:name="net.nend.android.internal.ui.activities.formats.FullscreenVideoPlayingActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-            android:hardwareAccelerated="true"
-            android:screenOrientation="user"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                    android:name="net.nend.android.internal.ui.activities.fullboard.NendAdFullBoardActivity"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+                <activity
+                    android:name="net.nend.android.internal.ui.activities.interstitial.NendAdInterstitialActivity"
+                    android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+                    android:screenOrientation="behind"
+                    android:theme="@style/Theme.NendAd.Interstitial" />
+                <activity
+                    android:name="net.nend.android.internal.ui.activities.video.NendAdInterstitialVideoActivity"
+                    android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                    android:hardwareAccelerated="true"
+                    android:screenOrientation="behind"
+                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                <activity
+                    android:name="net.nend.android.internal.ui.activities.video.NendAdRewardedVideoActivity"
+                    android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                    android:hardwareAccelerated="true"
+                    android:screenOrientation="behind"
+                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                <activity
+                    android:name="net.nend.android.internal.ui.activities.formats.FullscreenVideoPlayingActivity"
+                    android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                    android:hardwareAccelerated="true"
+                    android:screenOrientation="user"
+                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-            
+            <!--maio-->
+            <activity
+                android:name="jp.maio.sdk.android.AdFullscreenActivity"
+                android:configChanges="orientation|screenLayout|screenSize"
+                android:hardwareAccelerated="true"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            </activity>
+            <activity
+                android:name="jp.maio.sdk.android.HtmlBasedAdActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            </activity>
+
+<!--            mintegral-->
+            <activity
+                android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+                android:configChanges="keyboard|orientation"
+                android:exported="true"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+            <receiver android:name="com.mintegral.msdk.click.AppReceiver">
+                <intent-filter>
+                    <action android:name="android.intent.action.PACKAGE_ADDED" />
+                    <data android:scheme="package" />
+                </intent-filter>
+            </receiver>
+
+            <activity
+                android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+            <activity
+                android:name="com.mintegral.msdk.interstitial.view.MTGInterstitialActivity"
+                android:configChanges="orientation|screenSize"
+                android:screenOrientation="portrait" />
+
+
             		<!--<meta-data-->
             <!--android:name="com.google.android.gms.version"-->
             <!--android:value="@integer/google_play_services_version" />-->
