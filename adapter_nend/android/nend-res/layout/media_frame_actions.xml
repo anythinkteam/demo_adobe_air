@@ -28,8 +28,8 @@
 
     <ImageView
         android:id="@+id/native_video_fullscreen_action_optout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/native_video_fullscreen_information_size"
+        android:layout_height="@dimen/native_video_fullscreen_information_size"
         android:src="@drawable/nend_ad_native_video_information"
         android:scaleType="fitCenter"
         android:layout_gravity="left|bottom"

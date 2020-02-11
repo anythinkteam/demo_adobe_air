@@ -5,23 +5,6 @@
     <color name="nend_full_board_ad_button_background">@android:color/transparent</color>
     <color name="nend_full_board_ad_button_background_pressed">#FFE0E0E0</color>
     <color name="nend_full_board_ad_text">@android:color/black</color>
-    <declare-styleable name="NendAdAttributes">
-        <attr format="integer" name="NendSpotId"/>
-        <attr format="string" name="NendApiKey"/>
-        <attr format="boolean" name="NendReloadable"/>
-        <attr format="boolean" name="NendAdjustSize"/>
-        <attr format="color" name="NendTitleColor"/>
-        <attr format="boolean" name="NendTitleVisible"/>
-        <attr format="integer" name="NendIconCount"/>
-        <attr format="boolean" name="NendIconSpaceEnabled"/>
-        <attr format="enum" name="NendOrientation">
-            <enum name="horizontal" value="0"/>
-            <enum name="vertical" value="1"/>
-        </attr>
-    </declare-styleable>
-    <declare-styleable name="NendCardView">
-        <attr format="boolean" name="boardPreventCornerOverlap"/>
-    </declare-styleable>
     <item format="float" name="logo_and_promo_percent_bottom" type="dimen">0.60</item>
     <item format="float" name="logo_and_promo_percent_top" type="dimen">0.50</item>
     <dimen name="max_height_rectangle_media_view_replay_cta_land">250dp</dimen>
@@ -33,6 +16,7 @@
     <dimen name="native_video_fullscreen_card_image_size_video_port">96dp</dimen>
     <dimen name="native_video_fullscreen_card_title_size">20dp</dimen>
     <dimen name="native_video_fullscreen_card_width_video_port">300dp</dimen>
+    <dimen name="native_video_fullscreen_information_size">24dp</dimen>
     <item format="float" name="native_video_translucent" type="dimen">0.60</item>
     <item format="float" name="nend_full_board_ad_action_button_percent_bottom" type="dimen">0.95</item>
     <dimen name="nend_full_board_ad_card_margin_top">1dp</dimen>
@@ -100,4 +84,21 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:backgroundDimAmount">0.6</item>
     </style>
+    <declare-styleable name="NendAdAttributes">
+        <attr format="integer" name="NendSpotId"/>
+        <attr format="string" name="NendApiKey"/>
+        <attr format="boolean" name="NendReloadable"/>
+        <attr format="boolean" name="NendAdjustSize"/>
+        <attr format="color" name="NendTitleColor"/>
+        <attr format="boolean" name="NendTitleVisible"/>
+        <attr format="integer" name="NendIconCount"/>
+        <attr format="boolean" name="NendIconSpaceEnabled"/>
+        <attr format="enum" name="NendOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="NendCardView">
+        <attr format="boolean" name="boardPreventCornerOverlap"/>
+    </declare-styleable>
 </resources>

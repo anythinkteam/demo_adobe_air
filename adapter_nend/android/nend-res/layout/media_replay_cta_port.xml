@@ -1,4 +1,4 @@
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/media_view_replay_cta_port"
     android:layout_width="match_parent"
@@ -7,7 +7,7 @@
     android:background="#90000000"
     >
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/rectangle_media_view_replay_cta_port"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -17,8 +17,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintWidth_max="@dimen/max_width_rectangle_media_view_replay_cta_port"
         >
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/dimenstion_ratio_media_view_replay_cta_port"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dimension_ratio_media_view_replay_cta_port"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintRight_toRightOf="parent"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_chainStyle="packed"
         app:layout_constraintDimensionRatio="h,9:16">
 
-        <android.support.constraint.Guideline
+        <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guide_media_view_replay_area_top"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -36,21 +36,21 @@
             app:layout_constraintGuide_percent="0.10"
             />
 
-        <android.support.constraint.Guideline
+        <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guide_media_view_replay_area_left"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.25" />
 
-        <android.support.constraint.Guideline
+        <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guide_media_view_replay_area_right"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.75" />
 
-        <android.support.constraint.Guideline
+        <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guide_media_view_replay_area_bottom"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -88,6 +88,8 @@
             android:id="@id/space_rectangle_media_view_replay_cta"
             android:layout_width="0dp"
             android:layout_height="4dp"
+            app:layout_constraintLeft_toLeftOf="@id/media_view_button_replay"
+            app:layout_constraintRight_toRightOf="@id/media_view_button_replay"
             app:layout_constraintTop_toBottomOf="@id/media_view_button_replay"
             app:layout_constraintBottom_toTopOf="@id/media_view_button_cta"
             />
@@ -117,7 +119,7 @@
             app:layout_constraintRight_toRightOf="@id/media_view_button_cta"
             />
 
-    </android.support.constraint.ConstraintLayout>
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

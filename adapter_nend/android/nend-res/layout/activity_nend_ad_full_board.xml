@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:background="@color/nend_full_board_ad_background">
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide_CardViewFrame_top"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.05" />
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide_CardViewFrame_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,20 +37,20 @@
             app:boardPreventCornerOverlap="false"
             >
 
-            <android.support.constraint.ConstraintLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/NendAdFullBoardPortraitCardConstraint"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 >
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_marginTop_4percent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     app:layout_constraintGuide_percent="0.04" />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_height_nend_full_board_ad_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -69,21 +69,21 @@
                     app:layout_constraintBottom_toTopOf="@id/guide_height_nend_full_board_ad_image"
                     />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_logo_and_promo_top"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     app:layout_constraintGuide_percent="@dimen/logo_and_promo_percent_top" />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_logo_and_promo_left"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     app:layout_constraintGuide_percent="0.05" />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_logo_and_promo_bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                     app:layout_constraintBottom_toBottomOf="@id/guide_logo_and_promo_bottom"
                     />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_nend_full_board_ad_content_bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                     app:layout_constraintBottom_toBottomOf="@id/guide_nend_full_board_ad_content_bottom"
                     />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guide_nend_full_board_ad_action_button_bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
                     app:layout_constraintBottom_toBottomOf="@id/guide_nend_full_board_ad_action_button_bottom"
                     />
 
-            </android.support.constraint.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </net.nend.android.internal.ui.views.fullboard.NendCardView>
     </FrameLayout>
 
@@ -187,7 +187,7 @@
         app:layout_constraintRight_toLeftOf="@id/nend_full_board_ad_information_margin_spacer"
         />
 
-    <android.support.v4.widget.Space
+    <androidx.legacy.widget.Space
         android:id="@id/nend_full_board_ad_information_margin_spacer"
         android:layout_width="0dp"
         android:layout_height="0dp"

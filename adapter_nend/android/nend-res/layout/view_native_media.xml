@@ -10,13 +10,13 @@
         >
     </net.nend.android.internal.ui.views.video.NendAdVideoView>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/native_media_row_replay_area"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
         >
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <include layout="@layout/media_frame_actions"
         android:id="@+id/native_media_row_action_area"

@@ -82,7 +82,7 @@
         app:layout_constraintRight_toLeftOf="@id/nend_full_board_ad_margin_spacer"
         />
 
-    <android.support.v4.widget.Space
+    <androidx.legacy.widget.Space
         android:id="@id/nend_full_board_ad_margin_spacer"
         android:layout_width="0dp"
         android:layout_height="0dp"
