@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tt_00_00">00:00</string>
+    <string name="tt_ad">Ad</string>
+    <string name="tt_app_name">tt_open_ad_sdk</string>
+    <string name="tt_auto_play_cancel_text">キャンセル</string>
+    <string name="tt_cancel">キャンセル</string>
+    <string name="tt_comment_num">レビュー%1$s件</string>
+    <string name="tt_comment_score">評価スコア</string>
+    <string name="tt_confirm_download">"モバイルデータ通信ネットワークを利用しています。ダウンロードしますか？"</string>
+    <string name="tt_confirm_download_have_app_name">"%sアプリケーションのダウンロードを準備しています"</string>
+    <string name="tt_dislike_header_tv_back">戻る</string>
+    <string name="tt_dislike_header_tv_title">選択</string>
+    <string name="tt_full_screen_skip_tx">スキップ</string>
+    <string name="tt_label_cancel">キャンセル</string>
+    <string name="tt_label_ok">確認</string>
+    <string name="tt_no_network">"ネットワークがありません。暫くしてから再度お試しください"</string>
+    <string name="tt_permission_denied">権限付与の操作が無効になっています。有効にしてください</string>
+    <string name="tt_request_permission_descript_external_storage">保存</string>
+    <string name="tt_request_permission_descript_location">位置情報</string>
+    <string name="tt_request_permission_descript_read_phone_state">電話をかける</string>
+    <string name="tt_splash_skip_tv">3s | スキップ</string>
+    <string name="tt_tip">提示</string>
+    <string name="tt_unlike">興味なし</string>
+    <string name="tt_video_bytesize">データ通信量</string>
+    <string name="tt_video_bytesize_M">M</string>
+    <string name="tt_video_bytesize_MB">MB</string>
+    <string name="tt_video_continue_play">再生し続ける</string>
+    <string name="tt_video_dial_phone">今すぐ電話をかける</string>
+    <string name="tt_video_mobile_go_detail">詳細を見る</string>
+    <string name="tt_video_retry_des">ロードに失敗しました。クリックして再度お試しください</string>
+    <string name="tt_video_without_wifi_tips">再生するとデータ通信量が消費されます</string>
+    <string name="tt_web_title_default">広告</string>
+    <string name="tt_will_play">まもなく再生します</string>
+</resources>

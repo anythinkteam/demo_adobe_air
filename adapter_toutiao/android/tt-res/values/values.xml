@@ -103,36 +103,61 @@
     <string name="tt_00_00">00:00</string>
     <string name="tt_ad">Ad</string>
     <string name="tt_app_name">tt_open_ad_sdk</string>
-    <string name="tt_auto_play_cancel_text">取消</string>
-    <string name="tt_cancel">取消</string>
-    <string name="tt_comment_num">%1$s个评分</string>
-    <string name="tt_comment_score">评价</string>
-    <string name="tt_confirm_download">"正在使用非Wifi网络，确认要进行下载吗？"</string>
-    <string name="tt_confirm_download_have_app_name">"准备下载%s应用"</string>
-    <string name="tt_dislike_header_tv_back">返回</string>
-    <string name="tt_dislike_header_tv_title">选择</string>
-    <string name="tt_full_screen_skip_tx">跳过</string>
-    <string name="tt_label_cancel">取消</string>
-    <string name="tt_label_ok">确定</string>
-    <string name="tt_no_network">"无网络，请稍后再试"</string>
-    <string name="tt_permission_denied">您已禁止授权操作，请授权</string>
-    <string name="tt_request_permission_descript_external_storage">存储</string>
-    <string name="tt_request_permission_descript_location">位置信息</string>
-    <string name="tt_request_permission_descript_read_phone_state">拨打电话</string>
-    <string name="tt_splash_skip_tv">3s | 跳过</string>
-    <string name="tt_tip">提示</string>
-    <string name="tt_unlike">不感兴趣</string>
-    <string name="tt_video_bytesize">流量</string>
+    <string name="tt_auto_play_cancel_text">Cancel</string>
+    <string name="tt_cancel">Cancel</string>
+    <string name="tt_comment_num">%1$s score</string>
+    <string name="tt_comment_score">Evaluation</string>
+    <string name="tt_confirm_download">"Are you sure to download when using non-Wifi network?"</string>
+    <string name="tt_confirm_download_have_app_name">"Prepare to download %s"</string>
+    <string name="tt_dislike_header_tv_back">Back</string>
+    <string name="tt_dislike_header_tv_title">Choose</string>
+    <string name="tt_full_screen_skip_tx">Skip</string>
+    <string name="tt_label_cancel">Cancel</string>
+    <string name="tt_label_ok">OK</string>
+    <string name="tt_no_network">"Network is unavailable, please try again later."</string>
+    <string name="tt_permission_denied">You have prohibited from authorizing operation, please authorize it</string>
+    <string name="tt_request_permission_descript_external_storage">Storage</string>
+    <string name="tt_request_permission_descript_location">Location information</string>
+    <string name="tt_request_permission_descript_read_phone_state">Dial</string>
+    <string name="tt_splash_skip_tv">3s | Skip</string>
+    <string name="tt_tip">Tip</string>
+    <string name="tt_txt_skip">Skip</string>
+    <string name="tt_unlike">Unlike</string>
+    <string name="tt_video_bytesize">Traffic</string>
     <string name="tt_video_bytesize_M">M</string>
     <string name="tt_video_bytesize_MB">MB</string>
-    <string name="tt_video_continue_play">继续播放</string>
-    <string name="tt_video_dial_phone">立即拨打</string>
-    <string name="tt_video_download_apk">立即下载</string>
-    <string name="tt_video_mobile_go_detail">查看详情</string>
-    <string name="tt_video_retry_des">加载失败，点击重试</string>
-    <string name="tt_video_without_wifi_tips">播放将消耗</string>
-    <string name="tt_web_title_default">广告</string>
-    <string name="tt_will_play">即将播放</string>
+    <string name="tt_video_continue_play">ContinueToPlay</string>
+    <string name="tt_video_dial_phone">DialNow</string>
+    <string name="tt_video_download_apk">Download</string>
+    <string name="tt_video_mobile_go_detail">ViewDetails</string>
+    <string name="tt_video_retry_des">failed to load, click to try again.</string>
+    <string name="tt_video_without_wifi_tips">Play will consume</string>
+    <string name="tt_web_title_default">Advertise</string>
+    <string name="tt_will_play">PlayNow</string>
+    <string name="ttdownloader_app_confirm">确认要下载此应用吗？</string>
+    <string name="ttdownloader_back_dialog_cancel_install">暂不安装</string>
+    <string name="ttdownloader_back_dialog_confirm_title">应用安装确认</string>
+    <string name="ttdownloader_back_dialog_default_app_name">刚刚下载的应用</string>
+    <string name="ttdownloader_back_dialog_exit">退出%s</string>
+    <string name="ttdownloader_back_dialog_install">立即安装</string>
+    <string name="ttdownloader_back_dialog_message">%1$s下载完成，是否立即安装？</string>
+    <string name="ttdownloader_back_dialog_title">退出确认</string>
+    <string name="ttdownloader_cancel">取消</string>
+    <string name="ttdownloader_confirm">确认</string>
+    <string name="ttdownloader_delay_download_toast">开始预约下载，可在\"我的\"里查看</string>
+    <string name="ttdownloader_landing_page_toast_file_manager">已经下载，可在通知栏或文件管理中查看</string>
+    <string name="ttdownloader_landing_page_toast_mine">已经下载，可在通知栏或\"我的\"里查看管理</string>
+    <string name="ttdownloader_manage_toast">已开始下载，可在\"我的\"里查看管理</string>
+    <string name="ttdownloader_open">打开</string>
+    <string name="ttdownloader_open_app_dialog_default_app_name">刚刚下载的应用</string>
+    <string name="ttdownloader_open_app_dialog_message">%1$s已安装完成，是否立即打开？</string>
+    <string name="ttdownloader_open_app_dialog_title">已安装完成</string>
+    <string name="ttdownloader_open_app_failed_toast">应用打开失败，请检查是否安装</string>
+    <string name="ttdownloader_open_third_app_denied">该应用不支持打开</string>
+    <string name="ttdownloader_permission_denied">您已禁止使用存储权限，请授权后再下载</string>
+    <string name="ttdownloader_toast_app">已开始下载</string>
+    <style name="AppDownloader_NotificationText" parent="android:TextAppearance.StatusBar.EventContent"/>
+    <style name="AppDownloader_NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title"/>
     <style name="Theme.Dialog.TTDownload" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
         <item name="android:layout_centerInParent">true</item>
     </style>
@@ -152,8 +177,6 @@
         <item name="android:minHeight">32dp</item>
         <item name="android:maxHeight">32dp</item>
     </style>
-    <style name="appdownloader_notification_text" parent="android:TextAppearance.StatusBar.EventContent"/>
-    <style name="appdownloader_notification_title" parent="android:TextAppearance.StatusBar.EventContent.Title"/>
     <style name="appdownloader_progress_bar" parent="android:Widget.ProgressBar.Horizontal">
         <item name="android:indeterminateOnly">false</item>
         <item name="android:progressDrawable">@drawable/appdownloader_download_progress_bar_horizontal</item>

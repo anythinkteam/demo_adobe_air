@@ -98,7 +98,7 @@
             android:gravity="center"
             android:text="@string/tt_video_download_apk"
             android:textColor="@color/tt_white"
-            android:textSize="17sp" />
+            android:textSize="16sp" />
 
         <RatingBar
             android:id="@+id/tt_rb_score"
