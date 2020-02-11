@@ -1,0 +1,22 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.anythink.adapter.plugin.androidx.collection</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>androidx-collection-1.0.0.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>androidx-collection-1.0.0.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
