@@ -1,6 +1,0 @@
-framework module UpArpuUnityAdsInterstitialAdapter {
-  umbrella header "UpArpuUnityAdsInterstitialAdapter.h"
-
-  export *
-  module * { export * }
-}

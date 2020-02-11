@@ -9,7 +9,7 @@
     </features>
     <libraries>
         <library path="library.swf">
-            <script name="com/anythink/sdk/ATAirConst" mod="1575287434000">
+            <script name="com/anythink/sdk/ATAirConst" mod="1581343701000">
                 <def id="com.anythink.sdk:ATAirConst"/>
                 <dep id="Object" type="i"/>
                 <dep id="String" type="s"/>
@@ -146,7 +146,7 @@
                 <dep id="String" type="s"/>
             </script>
             <digests>
-                <digest type="SHA-256" signed="false" value="a2cbdd476f733b80b3e2f7af68b7fae3802e29e28e9cdf2eb0b1d4fdc7a3e32d"/>
+                <digest type="SHA-256" signed="false" value="ad54f81c3b3ea89ccb110c79e41a0f8c4706aaaec3f721e72049eb573749b419"/>
             </digests>
         </library>
     </libraries>

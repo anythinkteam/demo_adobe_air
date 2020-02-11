@@ -1,7 +1,7 @@
 <platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
     <description>sdk_adapter_facebook</description> 
     <copyright>anythink</copyright> 
-     <sdkVersion>5.2.0</sdkVersion>
+     <sdkVersion>5.4.5</sdkVersion>
     <linkerOptions>
         <option>-ObjC</option>
         <option>-w</option>

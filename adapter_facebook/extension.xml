@@ -20,16 +20,16 @@
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libAnyThinkAneFacebookAdapter.a</nativeLibrary>
-				<initializer>AnyThinkFacebookExtensionInitializer</initializer>
-				<finalizer>AnyThinkFacebookExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneFacebookAdapter.a</nativeLibrary>
+				<initializer>ATFacebookExtensionInitializer</initializer>
+				<finalizer>ATFacebookExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-x86">
 			<applicationDeployment>
-				<nativeLibrary>libAnyThinkAneFacebookAdapter.a</nativeLibrary>
-				<initializer>AnyThinkFacebookExtensionInitializer</initializer>
-				<finalizer>AnyThinkFacebookExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneFacebookAdapter.a</nativeLibrary>
+				<initializer>ATFacebookExtensionInitializer</initializer>
+				<finalizer>ATFacebookExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 	</platforms>

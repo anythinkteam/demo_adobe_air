@@ -1,5 +1,5 @@
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
-	<id>com.uparpu.adapter.unityads</id>
+	<id>com.anythink.adapter.unityads</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="default">
@@ -20,16 +20,16 @@
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneUnityAdsAdapter.a</nativeLibrary>
-				<initializer>UPArpuUnityAdsExtensionInitializer</initializer>
-				<finalizer>UPArpuUnityAdsExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneUnityAdsAdapter.a</nativeLibrary>
+				<initializer>ATUnityAdsExtensionInitializer</initializer>
+				<finalizer>ATUnityAdsExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-x86">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneUnityAdsAdapter.a</nativeLibrary>
-				<initializer>UPArpuUnityAdsExtensionInitializer</initializer>
-				<finalizer>UPArpuUnityAdsExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneUnityAdsAdapter.a</nativeLibrary>
+				<initializer>ATUnityAdsExtensionInitializer</initializer>
+				<finalizer>ATUnityAdsExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 	</platforms>
