@@ -84,6 +84,17 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"></com.anythink.nativead.views.RoundFrameLayout>
 
+    <FrameLayout
+        android:id="@+id/anythink_plugin_splash_ad_express_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/anythink_plugin_splash_desc"
+        android:layout_below="@id/anythink_plugin_rating_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"/>
+
+
 
     <TextView
         android:id="@+id/anythink_plugin_splash_self_ad_logo"
