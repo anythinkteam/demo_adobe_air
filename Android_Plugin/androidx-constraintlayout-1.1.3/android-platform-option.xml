@@ -6,7 +6,7 @@
 	</packagedDependencies>
 	<packagedResources>
 		<packagedResource>
-			<packageName>androidx.constraintlayout.solver</packageName>
+			<packageName>androidx.constraintlayout.widget</packageName>
 			<folderName>constraint-res</folderName>
 		</packagedResource>
 	</packagedResources>

@@ -49,11 +49,11 @@
         <!--<extensionID>com.anythink.adapter.plugin.recycleview</extensionID>-->
         <extensionID>com.anythink.adapter.plugin.gson</extensionID>
         <extensionID>com.anythink.adapter.plugin.androidx.collection</extensionID>
-        <extensionID>com.anythink.adapter.plugin.constraintlayout</extensionID>
+        <extensionID>com.anythink.adapter.plugin.androidx.constraintlayout</extensionID>
         <extensionID>com.anythink.adapter.plugin.androidx.recycleview</extensionID>
         <!--<extensionID>com.anythink.adapter.plugin.supportv4</extensionID>-->
         <extensionID>com.anythink.sdk</extensionID>
-<!--        <extensionID>com.anythink.adapter.mintegral</extensionID>-->
+        <extensionID>com.anythink.adapter.mintegral</extensionID>
         <extensionID>com.anythink.adapter.facebook</extensionID>
         <extensionID>com.anythink.adapter.toutiao</extensionID>
         <!--<extensionID>com.anythink.adapter.gdt</extensionID>-->

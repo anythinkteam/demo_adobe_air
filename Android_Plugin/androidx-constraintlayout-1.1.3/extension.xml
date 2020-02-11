@@ -1,5 +1,5 @@
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
-	<id>com.anythink.adapter.plugin.constraintlayout</id>
+	<id>com.anythink.adapter.plugin.androidx.constraintlayout</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="default">
