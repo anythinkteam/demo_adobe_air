@@ -6,11 +6,13 @@
 //
 
 
-#define MTGSDKVersion @"5.3.2"
+#define MTGSDKVersion @"5.8.7"
+
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <MTGSDK/MTGNativeAdManager.h>
+#import <MTGSDK/MTGBidNativeAdManager.h>
 #import <MTGSDK/MTGCampaign.h>
 #import <MTGSDK/MTGTemplate.h>
 #import <MTGSDK/MTGFrame.h>
@@ -132,6 +134,20 @@
 @Attention Do not mix the usage of `setConsentStatus:` and `setUserPrivateInfoType:agree` simultaneously in your app.
  */
 @property (nonatomic, assign) BOOL consentStatus;
+
+/**
+ Set user GDPR authorization IDFV information
+ Disable the collection of idfv , Default to be NO.
+ 
+ */
+@property (nonatomic, assign) BOOL disableIDFV;
+
+/**
+ If set to YES, the server will not display personalized ads based on the user's personal information
+ When receiving the user's request, and will not synchronize the user's information to other third-party partners.
+ Default is NO
+ */
+@property (nonatomic, assign) BOOL doNotTrackStatus;
 
 - (void)setUserInfo:(nonnull MTGUserInfo *)userInfo;
 
