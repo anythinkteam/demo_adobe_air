@@ -143,8 +143,8 @@ public class ATNativeRender implements ATNativeAdRenderer<CustomNativeAd> {
                 }
             });
             iconView = iconSelfView;
-            iconView.setLayoutParams(iconImageParam);
         }
+        iconView.setLayoutParams(iconImageParam);
 
 
         FrameLayout.LayoutParams adlogoParam = new FrameLayout.LayoutParams(adlogoItem.width, adlogoItem.height);
