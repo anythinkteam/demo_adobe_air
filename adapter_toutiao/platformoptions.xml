@@ -1,7 +1,7 @@
 <platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
-    <description>up_sdk_adapter_tiktok</description> 
-    <copyright>uparpu</copyright> 
-     <sdkVersion>3.5.0</sdkVersion>
+    <description>sdk_adapter_tiktok</description> 
+    <copyright>anythink</copyright> 
+     <sdkVersion>5.4.5</sdkVersion>
     <linkerOptions>
         <option>-ObjC</option>
         <option>-ios_version_min 8.0</option>
@@ -9,11 +9,11 @@
     </linkerOptions>
 
     <packagedDependencies> 
-        <packagedDependency>UpArpuAdapterTiktok.framework</packagedDependency>
-        <packagedDependency>UpArpuTTInterstitialAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuTTRewardedVideoAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuTTBannerAdapter.framework</packagedDependency>
-        <packagedDependency>UpArpuTTNativeAdapter.framework</packagedDependency>
+        <packagedDependency>ATAdapterTiktok.framework</packagedDependency>
+        <packagedDependency>AnyThinkTTInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkTTRewardedVideoAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkTTBannerAdapter.framework</packagedDependency>
+        <packagedDependency>AnyThinkTTNativeAdapter.framework</packagedDependency>
     </packagedDependencies>
 </platform>
 
