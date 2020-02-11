@@ -1,12 +1,12 @@
 <platform xmlns="http://ns.adobe.com/air/extension/4.0">
-	<description>up_sdk_ane</description>
-	<copyright>uparpu</copyright>
+	<description>anythink_sdk_ane</description>
+	<copyright>anythink</copyright>
 	<packagedDependencies>
-		<packagedDependency>maio-v1.1.7.jar</packagedDependency>
+		<packagedDependency>maio-v1.1.11.jar</packagedDependency>
 	</packagedDependencies>
 	<packagedResources>
 		<packagedResource>
-			<packageName>com.uparpu.sdk</packageName>
+			<packageName>jp.maio.sdk.android</packageName>
 			<folderName>maio-res</folderName>
 		</packagedResource>
 	</packagedResources>

@@ -1,5 +1,5 @@
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
-	<id>com.uparpu.adapter.maio</id>
+	<id>com.anythink.adapter.maio</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="default">
@@ -8,14 +8,14 @@
 		</platform>
 		 <platform name="Android-ARM">
 			<applicationDeployment>
-				<nativeLibrary>uparpuNetworkMaio.jar</nativeLibrary>
-				<initializer>com.uparpu.ane.SDK</initializer>
+				<nativeLibrary>anythinkNetworkMaio.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
 			</applicationDeployment>
 		</platform>
 		<platform name="Android-x86">
 			<applicationDeployment>
-				<nativeLibrary>uparpuNetworkMaio.jar</nativeLibrary>
-				<initializer>com.uparpu.ane.SDK</initializer>
+				<nativeLibrary>anythinkNetworkMaio.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-ARM">

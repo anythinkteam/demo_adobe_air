@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm up_sdk_ane_adapter.swc
+rm sdk_ane_adapter.swc
 rm catalog.xml
 rm library.swf
 rm ios/library.swf
