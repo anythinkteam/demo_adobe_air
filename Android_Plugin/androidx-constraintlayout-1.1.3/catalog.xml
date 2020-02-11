@@ -9,7 +9,7 @@
     </features>
     <libraries>
         <library path="library.swf">
-            <script name="com/anythink/adapter/ATAdapter" mod="1575342435000">
+            <script name="com/anythink/adapter/ATAdapter" mod="1575342435199">
                 <def id="com.anythink.adapter:ATAdapter"/>
                 <dep id="flash.events:EventDispatcher" type="i"/>
             </script>
