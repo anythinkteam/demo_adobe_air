@@ -1,2 +1,4 @@
 adapter_*/*/library.swf
 *.swf
+.idea
+demo/out
