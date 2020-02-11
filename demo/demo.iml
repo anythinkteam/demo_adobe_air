@@ -5,10 +5,40 @@
       <configuration name="demo" target-platform="Mobile" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/demo">
         <dependencies target-player="32.0">
           <entries>
-            <entry library-id="43c7e27d-deeb-47f2-8c38-8d3f0e9a7fed">
+            <entry library-id="221bcb19-88fb-41ca-aa42-724a410042a5">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="d11c98b1-f448-4cd5-bf3a-b6dc3fc4974d">
+            <entry library-id="ae99c66b-96a2-4f2c-98eb-d594a2cb155e">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="8a95e617-7afd-4f48-b5b1-347fd5c72660">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="ecdbefdc-7c8c-4822-8079-f661aaa3915d">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="1b9b57a1-449f-4064-bcbd-96971f51d26c">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="66fed4a7-7840-4e5a-939c-8d35819d5051">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="2f3892c3-7df7-4646-91ef-2de96cd4e904">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="4d139953-ee55-4436-870c-da29ff088e5a">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="eb23ae2a-6086-4110-b7b5-1ddf57026c28">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="b5556a0a-eae7-43c6-8b55-8195aaf2c8e2">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="10be46e9-ac00-4853-aa40-aee90f4454e2">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="9b20e6ec-69c5-4d2e-a3ed-d3c49c457e81">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -33,9 +63,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="43c7e27d-deeb-47f2-8c38-8d3f0e9a7fed" />
+        <properties id="221bcb19-88fb-41ca-aa42-724a410042a5" />
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../ane_release/sdk_adapter_facebook.ane!/" />
+          <root url="jar://$MODULE_DIR$/../Android_Plugin/output_plugin_ane/sdk_plugin_androidx_collection.ane!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -43,7 +73,107 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="d11c98b1-f448-4cd5-bf3a-b6dc3fc4974d" />
+        <properties id="ae99c66b-96a2-4f2c-98eb-d594a2cb155e" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Android_Plugin/output_plugin_ane/sdk_plugin_androidx-constraint-layout.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8a95e617-7afd-4f48-b5b1-347fd5c72660" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Android_Plugin/output_plugin_ane/sdk_plugin_androidx-recycleview.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ecdbefdc-7c8c-4822-8079-f661aaa3915d" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Android_Plugin/output_plugin_ane/sdk_plugin_gson.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="1b9b57a1-449f-4064-bcbd-96971f51d26c" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_admob.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="66fed4a7-7840-4e5a-939c-8d35819d5051" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_facebook.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2f3892c3-7df7-4646-91ef-2de96cd4e904" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_maio.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="4d139953-ee55-4436-870c-da29ff088e5a" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_mintegral.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="eb23ae2a-6086-4110-b7b5-1ddf57026c28" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_nend.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="b5556a0a-eae7-43c6-8b55-8195aaf2c8e2" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_tiktok.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="10be46e9-ac00-4853-aa40-aee90f4454e2" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_unityads.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9b20e6ec-69c5-4d2e-a3ed-d3c49c457e81" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk.ane!/" />
         </CLASSES>
