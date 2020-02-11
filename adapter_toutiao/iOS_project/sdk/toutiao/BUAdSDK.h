@@ -30,6 +30,11 @@
 /// native express ads
 #import <BUAdSDK/BUNativeExpressAdManager.h>
 #import <BUAdSDK/BUNativeExpressAdView.h>
+#import <BUAdSDK/BUNativeExpressBannerView.h>
+#import <BUAdSDK/BUNativeExpressInterstitialAd.h>
+#import <BUAdSDK/BUNativeExpressRewardedVideoAd.h>
+#import <BUAdSDK/BUNativeExpressFullscreenVideoAd.h>
+#import <BUAdSDK/BUNativeExpressSplashView.h>
 
 /// banner ads
 #import <BUAdSDK/BUBannerAdView.h>
@@ -46,3 +51,6 @@
 
 /// full-screen video ads
 #import <BUAdSDK/BUFullscreenVideoAd.h>
+
+/// playable tool
+#import <BUAdSDK/BUAdSDKPlayableToolManager.h>

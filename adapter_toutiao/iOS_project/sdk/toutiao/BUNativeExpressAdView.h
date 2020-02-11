@@ -2,7 +2,7 @@
 //  BUNativeExpressAdView.h
 //  BUAdSDK
 //
-//  Created by bytedance_yuanhuan on 2019/1/20.
+//  Created by bytedance on 2019/1/20.
 //  Copyright © 2019年 bytedance. All rights reserved.
 //
 
@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
  * Whether render is ready
  */
 @property (nonatomic, assign, readonly) BOOL isReady;
+
+/// media configuration parameters.
+@property (nonatomic, copy, readonly) NSDictionary *mediaExt;
 
 /*
  required.

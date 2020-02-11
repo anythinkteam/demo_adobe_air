@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BUPlayerPublicDefine.h"
+#import "BUMaterialMeta.h"
 
 @class BUMaterialMeta;
 
@@ -22,6 +23,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (CGFloat)currentPlayTime;
 
+/**
+ Set video play when you support CustomMode
+ **/
+- (void)play;
+
+/**
+ Set video pause when you support CustomMode
+**/
+- (void)pause;
+
 @end
 
 @protocol BUVideoAdViewDelegate;
@@ -30,8 +41,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface BUVideoAdView : UIView<BUPlayerDelegate, BUVideoEngine>
 
 @property (nonatomic, weak, nullable) id<BUVideoAdViewDelegate> delegate;
-
-/// required. Root view controller for handling ad actions.
+/**
+required. Root view controller for handling ad actions.
+ **/
 @property (nonatomic, weak, readwrite) UIViewController *rootViewController;
 
 /**
@@ -43,6 +55,13 @@ NS_ASSUME_NONNULL_BEGIN
  material information.
  */
 @property (nonatomic, strong, readwrite, nullable) BUMaterialMeta *materialMeta;
+
+/**
+ Set your Video autoPlayMode when you support CustomMode
+ if support CustomMode , default autoplay Video
+ **/
+@property (nonatomic, assign) BOOL supportAutoPlay;
+
 
 - (instancetype)initWithMaterial:(BUMaterialMeta *)materialMeta;
 
@@ -80,6 +99,23 @@ NS_ASSUME_NONNULL_BEGIN
  This method is called when videoadview end of play.
  */
 - (void)playerDidPlayFinish:(BUVideoAdView *)videoAdView;
+
+/**
+ This method is called when videoadview is clicked.
+ */
+- (void)videoAdViewDidClick:(BUVideoAdView *)videoAdView;
+
+/**
+ This method is called when videoadview's finish view is clicked.
+ */
+- (void)videoAdViewFinishViewDidClick:(BUVideoAdView *)videoAdView;
+
+/**
+ This method is called when another controller has been closed.
+ @param interactionType : open appstore in app or open the webpage or view video ad details page.
+ */
+- (void)videoAdViewDidCloseOtherController:(BUVideoAdView *)videoAdView interactionType:(BUInteractionType)interactionType;
+
 @end
 
 NS_ASSUME_NONNULL_END
