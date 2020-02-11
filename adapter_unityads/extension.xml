@@ -8,14 +8,14 @@
 		</platform>
 		 <platform name="Android-ARM">
 			<applicationDeployment>
-				<nativeLibrary>uparpuNetworkUnityads.jar</nativeLibrary>
-				<initializer>com.uparpu.ane.SDK</initializer>
+				<nativeLibrary>anythinkNetworkUnityads.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
 			</applicationDeployment>
 		</platform>
 		<platform name="Android-x86">
 			<applicationDeployment>
-				<nativeLibrary>uparpuNetworkUnityads.jar</nativeLibrary>
-				<initializer>com.uparpu.ane.SDK</initializer>
+				<nativeLibrary>anythinkNetworkUnityads.jar</nativeLibrary>
+				<initializer>com.anythink.ane.SDK</initializer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-ARM">
