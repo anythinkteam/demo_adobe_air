@@ -4,14 +4,14 @@ package com.anythink.demo
 
 	public class CommonConfig
 	{
-		public static var platform:int = 2;//1为android，2为ios
-		public static const android_appid:String = "a5c4ad280995c9";
-		public static const android_appkey:String = "7b4e37f819dbee652ef79c4506e14288";
-		public static const android_rv_placement:String = "b5c4ad2f0de421";
-		public static const android_inter_placement:String = "b5c4ad302ad418";
-		public static const android_banner_placement:String = "b5c4ad2fa3ab6d";
-		public static const android_native_placement:String = "b5c4ad2d34576b";
-		public static const android_nativebanner_placement:String = "b5c4ad2d34576b";
+		public static var platform:int = 1;//1为android，2为ios
+		public static const android_appid:String = "a5aa1f9deda26d";
+		public static const android_appkey:String = "4f7b9ac17decb9babec83aac078742c7";
+		public static const android_rv_placement:String = "b5b449eefcab50";
+		public static const android_inter_placement:String = "b5bbdc69a21187";
+		public static const android_banner_placement:String = "b5bbdc51a35e29";
+		public static const android_native_placement:String = "b5aa1fa4165ea3";
+		public static const android_nativebanner_placement:String = "b5aa1fa4165ea3";
 		
 		
 		public static const ios_appid:String = "a5b0e8491845b3";

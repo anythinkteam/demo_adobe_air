@@ -2,13 +2,7 @@
 	<description>sdk_ane</description>
 	<copyright>anythink</copyright>
 	<packagedDependencies>
-		<packagedDependency>AudienceNetwork_5.6.0.jar</packagedDependency>
+		<packagedDependency>AudienceNetwork5.6.0.jar</packagedDependency>
 		<packagedDependency>BiddingKit.jar</packagedDependency>
 	</packagedDependencies>
-	<packagedResources>
-		<packagedResource>
-			<packageName>com.facebook.ads</packageName>
-			<folderName>assets</folderName>
-		</packagedResource>
-	</packagedResources>
 </platform>
