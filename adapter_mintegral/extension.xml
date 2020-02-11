@@ -20,16 +20,16 @@
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneMintegralAdapter.a</nativeLibrary>
-				<initializer>UPArpuMintegralExtensionInitializer</initializer>
-				<finalizer>UPArpuMintegralExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneMintegralAdapter.a</nativeLibrary>
+				<initializer>ATMintegralExtensionInitializer</initializer>
+				<finalizer>ATMintegralExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-x86">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneMintegralAdapter.a</nativeLibrary>
-				<initializer>UPArpuMintegralExtensionInitializer</initializer>
-				<finalizer>UPArpuMintegralExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneMintegralAdapter.a</nativeLibrary>
+				<initializer>ATMintegralExtensionInitializer</initializer>
+				<finalizer>ATMintegralExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 	</platforms>

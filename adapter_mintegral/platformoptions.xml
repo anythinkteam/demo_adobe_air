@@ -1,7 +1,7 @@
 <platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
-    <description>up_sdk_adapter_mintegral</description> 
-    <copyright>uparpu</copyright> 
-     <sdkVersion>3.5.0</sdkVersion>
+    <description>sdk_adapter_mintegral</description> 
+    <copyright>anythink</copyright> 
+     <sdkVersion>5.4.5</sdkVersion>
     <linkerOptions>
         <option>-ios_version_min 8.0</option> 
         <option>-lclang_rt.ios</option>
@@ -53,10 +53,11 @@
     </linkerOptions>
 
     <packagedDependencies> 
-        <packagedDependency>UpArpuAdapterMintegral.framework</packagedDependency>
-        <packagedDependency>UpArpuMintegralInterstitialAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuMintegralNativeAdapter.framework</packagedDependency> 
-        <packagedDependency>UpArpuMintegralRewardedVideoAdapter.framework</packagedDependency> 
+        <packagedDependency>ATAdapterMintegral.framework</packagedDependency>
+        <packagedDependency>AnyThinkMintegralInterstitialAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkMintegralNativeAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkMintegralRewardedVideoAdapter.framework</packagedDependency> 
+        <packagedDependency>AnyThinkMintegralBannerAdapter.framework</packagedDependency> 
     </packagedDependencies>
 </platform>
 
