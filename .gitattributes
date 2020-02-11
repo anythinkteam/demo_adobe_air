@@ -1,1 +1,1 @@
-*.a filter=lfs diff=lfs merge=lfs -text
+demo_adobe_air/adapter_toutiao/iOS_project/sdk/toutiao/BUAdSDK.a filter=lfs diff=lfs merge=lfs -text
