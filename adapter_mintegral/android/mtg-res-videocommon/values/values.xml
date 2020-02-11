@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mintegral_video_common_alertview_bg">#FFFFFFFF</color>
+    <color name="mintegral_video_common_alertview_cancel_button_bg_default">#FF27AE5F</color>
+    <color name="mintegral_video_common_alertview_cancel_button_bg_pressed">#B327AE5F</color>
+    <color name="mintegral_video_common_alertview_cancel_button_textcolor">#FFFFFF</color>
+    <color name="mintegral_video_common_alertview_confirm_button_bg_default">#FFEAEAEA</color>
+    <color name="mintegral_video_common_alertview_confirm_button_bg_pressed">#B3EAEAEA</color>
+    <color name="mintegral_video_common_alertview_confirm_button_textcolor">#38B154</color>
+    <color name="mintegral_video_common_alertview_content_textcolor">#353535 </color>
+    <color name="mintegral_video_common_alertview_title_textcolor">#38B154</color>
+    <dimen name="mintegral_video_common_alertview_bg_padding">30dp</dimen>
+    <dimen name="mintegral_video_common_alertview_button_height">38dp</dimen>
+    <dimen name="mintegral_video_common_alertview_button_margintop">38dp</dimen>
+    <dimen name="mintegral_video_common_alertview_button_radius">50dp</dimen>
+    <dimen name="mintegral_video_common_alertview_button_textsize">18sp</dimen>
+    <dimen name="mintegral_video_common_alertview_button_width">105dp</dimen>
+    <dimen name="mintegral_video_common_alertview_content_margintop">13dp</dimen>
+    <dimen name="mintegral_video_common_alertview_content_size">18sp</dimen>
+    <dimen name="mintegral_video_common_alertview_contentview_maxwidth">240dp</dimen>
+    <dimen name="mintegral_video_common_alertview_contentview_minwidth">240dp</dimen>
+    <dimen name="mintegral_video_common_alertview_title_size">20sp</dimen>
+</resources>
