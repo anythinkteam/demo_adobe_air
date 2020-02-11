@@ -20,16 +20,16 @@
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneNendAdapter.a</nativeLibrary>
-				<initializer>UPArpuNendExtensionInitializer</initializer>
-				<finalizer>UPArpuNendExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneNendAdapter.a</nativeLibrary>
+				<initializer>ATNendExtensionInitializer</initializer>
+				<finalizer>ATNendExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-x86">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneNendAdapter.a</nativeLibrary>
-				<initializer>UPArpuNendExtensionInitializer</initializer>
-				<finalizer>UPArpuNendExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneNendAdapter.a</nativeLibrary>
+				<initializer>ATNendExtensionInitializer</initializer>
+				<finalizer>ATNendExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 	</platforms>
