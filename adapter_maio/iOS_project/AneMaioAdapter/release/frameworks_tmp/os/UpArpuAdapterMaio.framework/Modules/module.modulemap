@@ -1,0 +1,6 @@
+framework module UpArpuAdapterMaio {
+  umbrella header "UpArpuAdapterMaio.h"
+
+  export *
+  module * { export * }
+}

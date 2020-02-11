@@ -20,16 +20,16 @@
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneMaioAdapter.a</nativeLibrary>
-				<initializer>UPArpuMaioExtensionInitializer</initializer>
-				<finalizer>UPArpuMaioExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneMaioAdapter.a</nativeLibrary>
+				<initializer>ATMaioExtensionInitializer</initializer>
+				<finalizer>ATMaioExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-x86">
 			<applicationDeployment>
-				<nativeLibrary>libUpArpuAneMaioAdapter.a</nativeLibrary>
-				<initializer>UPArpuMaioExtensionInitializer</initializer>
-				<finalizer>UPArpuMaioExtensionFinalizer</finalizer>
+				<nativeLibrary>libATAneMaioAdapter.a</nativeLibrary>
+				<initializer>ATMaioExtensionInitializer</initializer>
+				<finalizer>ATMaioExtensionFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
 	</platforms>

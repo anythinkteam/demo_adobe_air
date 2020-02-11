@@ -1,6 +1,0 @@
-framework module UpArpuMaioInterstitialAdapter {
-  umbrella header "UpArpuMaioInterstitialAdapter.h"
-
-  export *
-  module * { export * }
-}
