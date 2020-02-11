@@ -1,2 +1,0 @@
-dependencies: \
-  /Users/stephen/Desktop/work/SuperAds/git/UpPlatform/uparpu_github/demo_adobe_air/adapter_mintegral/iOS_project/AneMintegralAdapter/build/ATAneMintegralAdapter.build/Release-iphonesimulator/ATAdapterMintegral.build/DerivedSources/ATAdapterMintegral_vers.c
