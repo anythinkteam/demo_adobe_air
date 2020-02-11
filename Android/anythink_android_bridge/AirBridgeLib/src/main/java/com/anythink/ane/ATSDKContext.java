@@ -37,7 +37,7 @@ public class ATSDKContext extends FREContext {
                     String appid = freObjects[0].getAsString();
                     String appKey = freObjects[1].getAsString();
                     ATSDK.init(getActivity().getApplicationContext(), appid, appKey);
-                    Logger.log("UpArpu SDK init.......");
+                    Logger.log("Anythink SDK init.......");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -66,7 +66,7 @@ public class ATSDKContext extends FREContext {
                 try {
                     int level = freObjects[0].getAsInt();
                     ATSDK.setGDPRUploadDataLevel(getActivity().getApplicationContext(), level);
-                    Logger.log("UpArpu SDK setGDPR:" + level);
+                    Logger.log("Anythink SDK setGDPR:" + level);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -79,7 +79,7 @@ public class ATSDKContext extends FREContext {
             @Override
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 ATSDK.showGdprAuth(getActivity());
-                Logger.log("UpArpu SDK show GDPR.......");
+                Logger.log("Anythink SDK show GDPR.......");
                 return null;
             }
         });
@@ -93,7 +93,7 @@ public class ATSDKContext extends FREContext {
                 try {
                     boolean isStatus = ATSDK.isEUTraffic(getActivity());
                     returnValue = FREObject.newObject(isStatus);
-                    Logger.log("UpArpu SDK check isEuTraffic:" + returnValue);
+                    Logger.log("Anythink SDK check isEuTraffic:" + returnValue);
                 } catch (Exception var5) {
                     var5.printStackTrace();
                 }
@@ -115,7 +115,7 @@ public class ATSDKContext extends FREContext {
                     int width = rectangle.width();
 //                    int width = getActivity().getResources().getDisplayMetrics().widthPixels;
                     returnValue = FREObject.newObject(width);
-                    Logger.log("UpArpu SDK getScreenWidth:" + returnValue);
+                    Logger.log("Anythink SDK getScreenWidth:" + returnValue);
                 } catch (Exception var5) {
                     var5.printStackTrace();
                 }
@@ -137,7 +137,7 @@ public class ATSDKContext extends FREContext {
 //                    ViewGroup group = (ViewGroup) root.getChildAt(0);// FrameLayout
                     int height = rectangle.height();
                     returnValue = FREObject.newObject(height);
-                    Logger.log("UpArpu SDK getScreenHeight:" + returnValue);
+                    Logger.log("Anythink SDK getScreenHeight:" + returnValue);
                 } catch (Exception var5) {
                     var5.printStackTrace();
                 }
@@ -154,7 +154,7 @@ public class ATSDKContext extends FREContext {
                 try {
                     ATNativeAdManager.getInstance().loadAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString(), freObjects[1].getAsString());
 
-                    Logger.log("UpArpu SDK load NativeAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK load NativeAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -169,7 +169,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATNativeAdManager.getInstance().showAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString());
-                    Logger.log("UpArpu SDK show NativeAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK show NativeAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -184,7 +184,7 @@ public class ATSDKContext extends FREContext {
                 FREObject freObject = null;
                 try {
                     boolean isAdReady = ATNativeAdManager.getInstance().isAdReady(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK is NativeAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
+                    Logger.log("Anythink SDK is NativeAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
                     freObject = FREObject.newObject(isAdReady);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -199,7 +199,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATNativeAdManager.getInstance().removeAd(ATSDKContext.this, freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK remove NativeAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK remove NativeAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -216,7 +216,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATBannerManager.getInstance().loadAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString());
-                    Logger.log("UpArpu SDK load BannerAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK load BannerAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -230,7 +230,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATBannerManager.getInstance().showAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString());
-                    Logger.log("UpArpu SDK show BannerAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK show BannerAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -244,7 +244,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATBannerManager.getInstance().removeAd(ATSDKContext.this, freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK remove BannerAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK remove BannerAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -259,7 +259,7 @@ public class ATSDKContext extends FREContext {
                 FREObject freObject = null;
                 try {
                     boolean isAdReady = ATBannerManager.getInstance().isAdReady(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK is bannerAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
+                    Logger.log("Anythink SDK is bannerAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
                     freObject = FREObject.newObject(isAdReady);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -276,7 +276,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATInterstitialManager.getInstance().loadAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString());
-                    Logger.log("UpArpu SDK load InterstitialAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK load InterstitialAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -291,7 +291,7 @@ public class ATSDKContext extends FREContext {
                 FREObject freObject = null;
                 try {
                     boolean isAdReady = ATInterstitialManager.getInstance().isAdReady(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK is InterstitalAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
+                    Logger.log("Anythink SDK is InterstitalAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
                     freObject = FREObject.newObject(isAdReady);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -306,7 +306,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATInterstitialManager.getInstance().showAd(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK show InterstitalAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK show InterstitalAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -321,7 +321,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATRewardedVideoManager.getInstance().loadAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString());
-                    Logger.log("UpArpu SDK load RewardedVideo:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK load RewardedVideo:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -336,7 +336,7 @@ public class ATSDKContext extends FREContext {
                 FREObject freObject = null;
                 try {
                     boolean isAdReady = ATRewardedVideoManager.getInstance().isAdReady(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK is RewardedVideo Ready:" + freObjects[0].getAsString() + "---:" + isAdReady);
+                    Logger.log("Anythink SDK is RewardedVideo Ready:" + freObjects[0].getAsString() + "---:" + isAdReady);
                     freObject = FREObject.newObject(isAdReady);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -351,7 +351,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATRewardedVideoManager.getInstance().showAd(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK show RewardedVideo:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK show RewardedVideo:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -366,7 +366,7 @@ public class ATSDKContext extends FREContext {
             public FREObject call(FREContext freContext, FREObject[] freObjects) {
                 try {
                     ATNativeBannerManager.getInstance().loadAd(ATSDKContext.this, freObjects[0].getAsString(), freObjects[1].getAsString());
-                    Logger.log("UpArpu SDK load nativeBannerAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK load nativeBannerAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -381,7 +381,7 @@ public class ATSDKContext extends FREContext {
                 FREObject freObject = null;
                 try {
                     boolean isAdReady = ATNativeBannerManager.getInstance().isAdReady(freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK is nativeBannerAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
+                    Logger.log("Anythink SDK is nativeBannerAdReady:" + freObjects[0].getAsString() + "---:" + isAdReady);
                     freObject = FREObject.newObject(isAdReady);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -398,7 +398,7 @@ public class ATSDKContext extends FREContext {
                     ATNativeBannerManager.getInstance().showAd(ATSDKContext.this, freObjects[0].getAsString()
                             , freObjects[1].getAsString()
                             , freObjects[2] != null ? freObjects[2].getAsString() : "");
-                    Logger.log("UpArpu SDK show nativeBannerAd:" + freObjects[0].getAsString() + "\n" + "rect:" + freObjects[1].getAsString() + "\n showConfig:" + (freObjects[2] != null ? freObjects[2].getAsString() : ""));
+                    Logger.log("Anythink SDK show nativeBannerAd:" + freObjects[0].getAsString() + "\n" + "rect:" + freObjects[1].getAsString() + "\n showConfig:" + (freObjects[2] != null ? freObjects[2].getAsString() : ""));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -413,7 +413,7 @@ public class ATSDKContext extends FREContext {
                 FREObject freObject = null;
                 try {
                     ATNativeBannerManager.getInstance().removeAd(ATSDKContext.this, freObjects[0].getAsString());
-                    Logger.log("UpArpu SDK remove nativeBannerAd:" + freObjects[0].getAsString());
+                    Logger.log("Anythink SDK remove nativeBannerAd:" + freObjects[0].getAsString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

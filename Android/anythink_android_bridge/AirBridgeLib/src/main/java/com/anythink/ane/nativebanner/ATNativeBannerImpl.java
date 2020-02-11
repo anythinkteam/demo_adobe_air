@@ -10,8 +10,8 @@ import com.adobe.fre.FREContext;
 import com.anythink.ane.ATAneConst;
 import com.anythink.ane.utils.Logger;
 import com.anythink.core.api.ATAdInfo;
-import com.anythink.nativead.banner.api.ATNaitveBannerListener;
-import com.anythink.nativead.banner.api.ATNaitveBannerSize;
+import com.anythink.nativead.banner.api.ATNativeBannerListener;
+import com.anythink.nativead.banner.api.ATNativeBannerSize;
 import com.anythink.nativead.banner.api.ATNativeBannerConfig;
 import com.anythink.nativead.banner.api.ATNativeBannerView;
 
@@ -65,7 +65,7 @@ public class ATNativeBannerImpl {
                         mNativeBannerView = new ATNativeBannerView(activity);
                     }
                     mNativeBannerView.setUnitId(mUnitId);
-                    mNativeBannerView.setAdListener(new ATNaitveBannerListener() {
+                    mNativeBannerView.setAdListener(new ATNativeBannerListener() {
                         @Override
                         public void onAdLoaded() {
                             mIsAdReady = true;
@@ -265,11 +265,11 @@ public class ATNativeBannerImpl {
                                 config.isCloseBtnShow = isShowCloseBtn;
 
                                 if (bannerSize == 1) {
-                                    config.bannerSize = ATNaitveBannerSize.BANNER_SIZE_320x50;
+                                    config.bannerSize = ATNativeBannerSize.BANNER_SIZE_320x50;
                                 } else if (bannerSize == 2) {
-                                    config.bannerSize = ATNaitveBannerSize.BANNER_SIZE_640x150;
+                                    config.bannerSize = ATNativeBannerSize.BANNER_SIZE_640x150;
                                 } else {
-                                    config.bannerSize = ATNaitveBannerSize.BANNER_SIZE_AUTO;
+                                    config.bannerSize = ATNativeBannerSize.BANNER_SIZE_AUTO;
                                 }
 
                                 Logger.log("set Native banner isCtaBtnShow:" + isShowCtaBtn);

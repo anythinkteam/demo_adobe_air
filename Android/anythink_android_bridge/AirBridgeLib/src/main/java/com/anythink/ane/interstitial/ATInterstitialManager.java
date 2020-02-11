@@ -21,27 +21,27 @@ public class ATInterstitialManager {
     }
 
     public void loadAd(FREContext context, String unitId, String customJSONMap) {
-        ATInterstitialImpl uparpuInterstitialImpl = mInterstitialManager.get(unitId);
-        if (uparpuInterstitialImpl == null) {
-            uparpuInterstitialImpl = new ATInterstitialImpl(unitId);
-            mInterstitialManager.put(unitId, uparpuInterstitialImpl);
+        ATInterstitialImpl anythinkInterstitialImpl = mInterstitialManager.get(unitId);
+        if (anythinkInterstitialImpl == null) {
+            anythinkInterstitialImpl = new ATInterstitialImpl(unitId);
+            mInterstitialManager.put(unitId, anythinkInterstitialImpl);
         }
 
-        uparpuInterstitialImpl.loadAd(context, customJSONMap);
+        anythinkInterstitialImpl.loadAd(context, customJSONMap);
     }
 
     public boolean isAdReady(String unitId) {
-        ATInterstitialImpl uparpuInterstitialImpl = mInterstitialManager.get(unitId);
-        if (uparpuInterstitialImpl != null) {
-            return uparpuInterstitialImpl.isAdReady();
+        ATInterstitialImpl anythinkInterstitialImpl = mInterstitialManager.get(unitId);
+        if (anythinkInterstitialImpl != null) {
+            return anythinkInterstitialImpl.isAdReady();
         }
         return false;
     }
 
     public void showAd(String unitId) {
-        ATInterstitialImpl uparpuInterstitialImpl = mInterstitialManager.get(unitId);
-        if (uparpuInterstitialImpl != null) {
-            uparpuInterstitialImpl.showAd();
+        ATInterstitialImpl anythinkInterstitialImpl = mInterstitialManager.get(unitId);
+        if (anythinkInterstitialImpl != null) {
+            anythinkInterstitialImpl.showAd();
         }
 
     }

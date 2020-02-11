@@ -22,34 +22,34 @@ public class ATNativeAdManager {
     }
 
     public void loadAd(FREContext context, String unitId, String customJSONMap, String configJSONMap) {
-        ATNativeAdImpl uparpuNativeAdImpl = mNativeAdManager.get(unitId);
-        if (uparpuNativeAdImpl == null) {
-            uparpuNativeAdImpl = new ATNativeAdImpl(unitId);
-            mNativeAdManager.put(unitId, uparpuNativeAdImpl);
+        ATNativeAdImpl anythinkNativeAdImpl = mNativeAdManager.get(unitId);
+        if (anythinkNativeAdImpl == null) {
+            anythinkNativeAdImpl = new ATNativeAdImpl(unitId);
+            mNativeAdManager.put(unitId, anythinkNativeAdImpl);
         }
 
-        uparpuNativeAdImpl.loadAd(context, customJSONMap, configJSONMap);
+        anythinkNativeAdImpl.loadAd(context, customJSONMap, configJSONMap);
     }
 
     public boolean isAdReady(String unitId) {
-        ATNativeAdImpl uparpuNativeAdImpl = mNativeAdManager.get(unitId);
-        if (uparpuNativeAdImpl != null) {
-            return uparpuNativeAdImpl.isAdReady();
+        ATNativeAdImpl anythinkNativeAdImpl = mNativeAdManager.get(unitId);
+        if (anythinkNativeAdImpl != null) {
+            return anythinkNativeAdImpl.isAdReady();
         }
         return false;
     }
 
     public void showAd(FREContext freContext, String unitId, String jsonConfig) {
-        ATNativeAdImpl uparpuNativeAdImpl = mNativeAdManager.get(unitId);
-        if (uparpuNativeAdImpl != null) {
-            uparpuNativeAdImpl.showAd(freContext, jsonConfig);
+        ATNativeAdImpl anythinkNativeAdImpl = mNativeAdManager.get(unitId);
+        if (anythinkNativeAdImpl != null) {
+            anythinkNativeAdImpl.showAd(freContext, jsonConfig);
         }
     }
 
     public void removeAd(FREContext context, String unitId) {
-        ATNativeAdImpl uparpuNativeAdImpl = mNativeAdManager.get(unitId);
-        if (uparpuNativeAdImpl != null) {
-            uparpuNativeAdImpl.removeAd(context);
+        ATNativeAdImpl anythinkNativeAdImpl = mNativeAdManager.get(unitId);
+        if (anythinkNativeAdImpl != null) {
+            anythinkNativeAdImpl.removeAd(context);
         }
     }
 }

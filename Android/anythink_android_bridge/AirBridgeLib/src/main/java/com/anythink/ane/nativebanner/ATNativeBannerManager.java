@@ -21,35 +21,35 @@ public class ATNativeBannerManager {
     }
 
     public void loadAd(FREContext context, String unitId, String customJSONMap) {
-        ATNativeBannerImpl uparpuNativeBannerImpl = mBannerManager.get(unitId);
-        if (uparpuNativeBannerImpl == null) {
-            uparpuNativeBannerImpl = new ATNativeBannerImpl(unitId);
-            mBannerManager.put(unitId, uparpuNativeBannerImpl);
+        ATNativeBannerImpl anythinkNativeBannerImpl = mBannerManager.get(unitId);
+        if (anythinkNativeBannerImpl == null) {
+            anythinkNativeBannerImpl = new ATNativeBannerImpl(unitId);
+            mBannerManager.put(unitId, anythinkNativeBannerImpl);
         }
 
-        uparpuNativeBannerImpl.loadAd(context, customJSONMap);
+        anythinkNativeBannerImpl.loadAd(context, customJSONMap);
     }
 
     public boolean isAdReady(String unitId) {
-        ATNativeBannerImpl uparpuNativeBannerImpl = mBannerManager.get(unitId);
-        if (uparpuNativeBannerImpl != null) {
-            return uparpuNativeBannerImpl.isAdReady();
+        ATNativeBannerImpl anythinkNativeBannerImpl = mBannerManager.get(unitId);
+        if (anythinkNativeBannerImpl != null) {
+            return anythinkNativeBannerImpl.isAdReady();
         }
         return false;
     }
 
 
     public void showAd(FREContext context, String unitId, String configJson, String bannerAdConfig) {
-        ATNativeBannerImpl uparpuNativeBannerImpl = mBannerManager.get(unitId);
-        if (uparpuNativeBannerImpl != null) {
-            uparpuNativeBannerImpl.showAd(context, configJson, bannerAdConfig);
+        ATNativeBannerImpl anythinkNativeBannerImpl = mBannerManager.get(unitId);
+        if (anythinkNativeBannerImpl != null) {
+            anythinkNativeBannerImpl.showAd(context, configJson, bannerAdConfig);
         }
     }
 
     public void removeAd(FREContext context, String unitId) {
-        ATNativeBannerImpl uparpuNativeBannerImpl = mBannerManager.get(unitId);
-        if (uparpuNativeBannerImpl != null) {
-            uparpuNativeBannerImpl.removeAd(context);
+        ATNativeBannerImpl anythinkNativeBannerImpl = mBannerManager.get(unitId);
+        if (anythinkNativeBannerImpl != null) {
+            anythinkNativeBannerImpl.removeAd(context);
         }
     }
 }
