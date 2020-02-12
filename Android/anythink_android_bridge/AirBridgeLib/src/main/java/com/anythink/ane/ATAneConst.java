@@ -10,6 +10,7 @@ public class ATAneConst {
         public static final String setDebugLogMethod = "setDebugLog";
         public static final String getScreenWidthMethod = "getScreenWidth";
         public static final String getScreenHeightMethod = "getScreenHeight";
+        public static final String getGDPRLevelMethod = "getGDPRLevelMethod";
 
         //banner方法定义
         public static final String loadBannerAdMethod = "loadBannerAd";

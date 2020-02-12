@@ -11,7 +11,7 @@ package com.anythink.sdk
 		public static const isEUTrafficMethod:String = "isEUTraffic";
 		public static const getScreenWidthMethod:String = "getScreenWidth";
 		public static const getScreenHeightMethod:String = "getScreenHeight";
-		public static const getGDPRLevel = "getGDPRLevel";
+		public static const getGDPRLevel:String = "getGDPRLevel";
 //		public static const setNetworkGDPRInfo:String = "setNetworkGDPRInfo";
 		
 		//banner方法定义

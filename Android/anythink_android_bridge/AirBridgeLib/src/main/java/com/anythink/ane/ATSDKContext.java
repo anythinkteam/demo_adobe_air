@@ -74,6 +74,21 @@ public class ATSDKContext extends FREContext {
             }
         });
 
+        //SDK获取GDPR等级
+        functionMap.put(ATAneConst.Method.getGDPRLevelMethod, new FREFunction() {
+            @Override
+            public FREObject call(FREContext freContext, FREObject[] freObjects) {
+                try {
+                    int level = ATSDK.getGDPRDataLevel(getActivity().getApplicationContext());
+                    Logger.log("Anythink SDK getGDPRLevel:" + level);
+                    return FREObject.newObject(level);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+        });
+
         //SDK展示GDPR授权页
         functionMap.put(ATAneConst.Method.showGdprAuthMethod, new FREFunction() {
             @Override
