@@ -109,6 +109,25 @@ DEFINE_ANE_FUNCTION(showGdprAuth) {
     return result;
 }
 
+DEFINE_ANE_FUNCTION(getGDPRLevel) {
+    FREObject result = NULL;
+    
+//    @try {
+//
+//    }
+//    @catch (NSException *exception) {
+//        logEvent(context, kFatal, @"Unable to create the return value. [Exception:(type:%@, method:%s)].", [exception name], __FUNCTION__);
+//        return createRuntimeException(@"ArgumentError", 0, @"Unable to create the return value on method '%s'.", __FUNCTION__);
+//    }
+
+    ATDataConsentSet dataConsentLevel = [[ATAPI sharedInstance] dataConsentSet];
+    int level = dataConsentLevel - 1;
+    
+    result = [FREConversionUtil fromInt:level];
+    
+    return result;
+}
+
 DEFINE_ANE_FUNCTION(isEUTraffic) {
     FREObject result = NULL;
     

@@ -53,6 +53,7 @@ void ATContextInitializer(void *extData, const uint8_t *ctxType, FREContext ctx,
         MAP_FUNCTION(isEUTraffic, NULL),
         MAP_FUNCTION(getScreenWidth, NULL),
         MAP_FUNCTION(getScreenHeight, NULL),
+        MAP_FUNCTION(getGDPRLevel, NULL),
         
         MAP_FUNCTION(loadRewardedVideoAd, NULL),
         MAP_FUNCTION(showRewardedVideoAd, NULL),

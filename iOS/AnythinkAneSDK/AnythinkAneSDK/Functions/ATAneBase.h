@@ -21,5 +21,7 @@ DEFINE_ANE_FUNCTION(showGdprAuth);
 DEFINE_ANE_FUNCTION(isEUTraffic);
 DEFINE_ANE_FUNCTION(getScreenWidth);
 DEFINE_ANE_FUNCTION(getScreenHeight);
+DEFINE_ANE_FUNCTION(getGDPRLevel);
+
 
 @end
