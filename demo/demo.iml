@@ -20,9 +20,6 @@
             <entry library-id="43c5bca6-41ed-42d5-9872-78f806762ccb">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="cbbb8ac7-b36e-4dbf-821f-88c1ee021535">
-              <dependency linkage="Merged" />
-            </entry>
             <entry library-id="5455fd1d-b908-4ad2-90b5-710b122063f6">
               <dependency linkage="Merged" />
             </entry>
@@ -41,12 +38,21 @@
             <entry library-id="2c5269d1-ae0e-4267-a0a6-d6688d0e700c">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-id="95eaa154-aac0-4866-aa6c-e4e0c2f8afb3">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="air_flex_sdk" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
-        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="Main" />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="Main">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/audience_network.dex" path-in-package="audience_network.dex" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/nend_button_cancel.png" path-in-package="nend_button_cancel.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/nend_information_icon.png" path-in-package="nend_information_icon.png" />
+          </files-to-package>
+        </packaging-android>
         <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="Main">
           <AirSigningOptions keystore-path="$USER_HOME$/Downloads/ane_test_0211.p12" provisioning-profile-path="$USER_HOME$/Downloads/ane_test_0211.mobileprovision" />
         </packaging-ios>
@@ -113,16 +119,6 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="cbbb8ac7-b36e-4dbf-821f-88c1ee021535" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_tiktok.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
         <properties id="5455fd1d-b908-4ad2-90b5-710b122063f6" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_unityads.ane!/" />
@@ -176,6 +172,16 @@
         <properties id="2c5269d1-ae0e-4267-a0a6-d6688d0e700c" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../Android_Plugin/androidx-constraintlayout-1.1.3/sdk_plugin_androidx-constraint-layout.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="95eaa154-aac0-4866-aa6c-e4e0c2f8afb3" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../ane_release/anythink_sdk_adapter_pangle.ane!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

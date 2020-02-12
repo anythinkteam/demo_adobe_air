@@ -14,4 +14,4 @@ cp library.swf android/
 cp library.swf default/
 rm sdk_ane_adapter.zip
 
-adt -package -target ane anythink_sdk_adapter_tiktok.ane extension.xml -swc sdk_ane_adapter.swc -platform default -C default/ . -platform iPhone-ARM -platformoptions platformoptions.xml -C ios/ . -platform iPhone-x86 -platformoptions platformoptions.xml -C ios/ . -platform Android-ARM -platformoptions android-platform-option.xml -C android/ . -platform Android-x86 -platformoptions android-platform-option.xml -C android/ .
+adt -package -target ane anythink_sdk_adapter_pangle.ane extension.xml -swc sdk_ane_adapter.swc -platform default -C default/ . -platform iPhone-ARM -platformoptions platformoptions.xml -C ios/ . -platform iPhone-x86 -platformoptions platformoptions.xml -C ios/ . -platform Android-ARM -platformoptions android-platform-option.xml -C android/ . -platform Android-x86 -platformoptions android-platform-option.xml -C android/ .

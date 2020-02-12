@@ -55,7 +55,7 @@
         <extensionID>com.anythink.sdk</extensionID>
         <extensionID>com.anythink.adapter.mintegral</extensionID>
         <extensionID>com.anythink.adapter.facebook</extensionID>
-        <extensionID>com.anythink.adapter.toutiao</extensionID>
+        <extensionID>com.anythink.adapter.pangle</extensionID>
         <!--<extensionID>com.anythink.adapter.gdt</extensionID>-->
         <!--<extensionID>com.anythink.adapter.ironsource</extensionID>-->
         <extensionID>com.anythink.adapter.admob</extensionID>
