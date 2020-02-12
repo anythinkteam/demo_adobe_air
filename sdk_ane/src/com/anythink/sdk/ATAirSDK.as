@@ -19,7 +19,7 @@ public class ATAirSDK extends EventDispatcher
 		//GDPR配置
 		public static const GDPR_PERSONALIZED:int = 0;
 		public static const GDPR_NONPERSONALIZED:int = 1;
-		public static const GDPR_FORBIDDEN:int = 2;
+		public static const GDPR_UNKNOW:int = 2;
 		
 		public var extCtx:ExtensionContext=null; 
 		private static var instance:ATAirSDK = null;
@@ -82,6 +82,18 @@ public class ATAirSDK extends EventDispatcher
 			if(extCtx)
 			{  
 				extCtx.call(ATAirConst.setGDPRLevelMethod, level);
+			}
+		}
+
+		public function getGDPRLevel():int
+		{
+			if(isDebug == STATUS_ON){
+				trace("getGDPRLevel call!"); // 将回调信息打印
+			}
+
+			if(extCtx)
+			{
+				return extCtx.call(ATAirConst.getGDPRLevel) as int;
 			}
 		}
 		

@@ -1,5 +1,5 @@
 基础SDK引入：
-（1）引入uparpu_sdk.ane
+（1）引入anythink_sdk.ane
 
 （2）Manifest配置
 
@@ -11,7 +11,6 @@
 	<uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     
     2.组件：
     
@@ -30,6 +29,7 @@ Network的Ane引入：
 1.Facebook接入说明
 （1）引入anythink_sdk_adapter_facebook.ane
 	额外导入的包：sdk_plugin_androidx-recycleview.ane（如果已经引入recycleview的包则不需要再引入）的包
+    把facebook-assets的文件导入：Project Structure-> Modules -> Android-> press on the + to add the files
 	
 （2）Manifest配置：
 	1.权限：
@@ -719,6 +719,7 @@ Network的Ane引入：
 	额外引入的包：sdk_plugin_androidx-constraint-layout.ane
 			    anythink_sdk_adapter_admob.ane
 				（如果已经引入额外的包则不需要再引入）
+    把nend-assets的文件导入：Project Structure-> Modules -> Android-> press on the + to add the files
 
 （2）Manifest配置：
 	1.权限：
