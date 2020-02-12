@@ -16,9 +16,12 @@
     
      <uses-library android:name="org.apache.http.legacy" android:required="false"/>
     <activity
-            android:name="com.uparpu.activity.UpArpuGdprAuthActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        android:name="com.anythink.core.activity.AnyThinkGdprAuthActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:launchMode="singleTask"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    <activity android:name="com.anythink.myoffer.ui.MyOfferAdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
             
     
             

@@ -532,7 +532,7 @@ In the **-app.xml file, <manifestAdditions> label the configuration：
 			 <uses-sdk
 	 			android:minSdkVersion ="14"
         		android:targetSdkVersion ="28"/>
-    			<uses-permission android:name="android.permission.InterstitialNET" />
+    			<uses-permission android:name="android.permission.INTERNET" />
     			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -540,12 +540,18 @@ In the **-app.xml file, <manifestAdditions> label the configuration：
     			<!--Add permissions required by third parties-->
 			    <application android:usesCleartextTraffic="true">
 			    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-			    <activity                    android:name="com.anythink.core.activity.AnyThinkGdprAuthActivity"
+			    <activity
+                    android:name="com.anythink.core.activity.AnyThinkGdprAuthActivity"
                     android:configChanges="orientation|keyboardHidden|screenSize"
                     android:launchMode="singleTask"
                     android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
                <activity android:name="com.anythink.myoffer.ui.MyOfferAdActivity"
-                    android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>            		<!--Add components needed by third parties-->
+                    android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+               <provider
+                    android:name="com.tramini.plugin.api.TraminiContentProvider"
+                    android:authorities="{Your packageName}.initprovider"
+                    android:exported="false"
+                    android:initOrder="100" ></provider>           		<!--Add components needed by third parties-->
 			    </application>
 			</manifest>
 			

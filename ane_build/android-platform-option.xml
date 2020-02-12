@@ -8,6 +8,8 @@
 		<packagedDependency>anythinkInterstitial.jar</packagedDependency>
 		<packagedDependency>anythinkNativead.jar</packagedDependency>
 		<packagedDependency>anythinkRewardedvideo.jar</packagedDependency>
+		<packagedDependency>anythinkRewardedvideo.jar</packagedDependency>
+		<packagedDependency>tramini-sdk.jar</packagedDependency>
 	</packagedDependencies>
 	<packagedResources>
 		<packagedResource>

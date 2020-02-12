@@ -306,6 +306,12 @@
                     android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
                <activity android:name="com.anythink.myoffer.ui.MyOfferAdActivity"
                     android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+               <provider
+                    android:name="com.tramini.plugin.api.TraminiContentProvider"
+                    android:authorities="air.com.superapp.filemanager.initprovider"
+                    android:exported="false"
+                    android:initOrder="100" >
+                </provider>
 <!--                facebook             -->
             	<activity
                     android:name="com.facebook.ads.AudienceNetworkActivity"
@@ -329,7 +335,7 @@
 
                 <provider
                     android:name="com.facebook.ads.AudienceNetworkContentProvider"
-                    android:authorities="com.superapp.filemanager.AudienceNetworkContentProvider"
+                    android:authorities="air.com.superapp.filemanager.AudienceNetworkContentProvider"
                     android:exported="false" />
 
 <!--               nend                   -->
@@ -424,7 +430,7 @@
 <!--            pangle-->
             <provider
                 android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
-                android:authorities="com.superapp.filemanager.TTMultiProvider"
+                android:authorities="air.com.superapp.filemanager.TTMultiProvider"
                 android:exported="false" />
             <activity
                 android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"
@@ -500,7 +506,7 @@
 
             <provider
                 android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-                android:authorities="com.superapp.filemanager.mobileadsinitprovider"
+                android:authorities="air.com.superapp.filemanager.mobileadsinitprovider"
                 android:exported="false"
                 android:initOrder="100" />
 			    </application>
