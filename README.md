@@ -17,7 +17,7 @@ AnyThink ANE SDK is the adobe air extention sdk based on the Android and iOS SDK
 
 <h2 id='2'>2 ANE integration reference configuration </h2>
 
-###2.1 ANE file instructions
+### 2.1 ANE file instructions
 
 | ANE file  | instructions | Whether must|
 | --- | --- |---|
@@ -25,7 +25,7 @@ AnyThink ANE SDK is the adobe air extention sdk based on the Android and iOS SDK
 |anythink\_sdk\_adapter\_*.ane|Different network adapter and network SDK need to be relied on|N|
 
 
-###2.2 Android integration dependent ANE file instructions
+### 2.2 Android integration dependent ANE file instructions
 
 In addition to the basic AnyThink SDK libraries and the required network adapter libraries, the other required libraries and configurations are listed below：
 
@@ -39,7 +39,7 @@ In addition to the basic AnyThink SDK libraries and the required network adapter
 |sdk\_adapter\_admob.ane(Because of this admob ane, part of the network relies on admob's ane)|Nend,Maio |
 
 
-###2.3 iOS integration dependent ANE file instructions
+### 2.3 iOS integration dependent ANE file instructions
 
 AnyThink basic SDK library and the need for network adapter library。
 
@@ -524,7 +524,9 @@ ATNativeBannerAd.removeNativeBannerAd("unitid");
 <h2 id='9'>9 network configuration instructions </h2>
 
 ### Basics configuration
+
 ##### Android
+
 In the **-app.xml file, <manifestAdditions> label the configuration：
 
 ```java
@@ -560,7 +562,7 @@ In the **-app.xml file, <manifestAdditions> label the configuration：
 ```
 
 ### 9.1 Facebook
-#####Android
+##### Android
 **Add the files of facebook-assets to your build. To include it go to Project Structure-> Modules -> Android-> press on the + to add the files.**
 Add the following configuration to the base configuration：
 
@@ -598,7 +600,7 @@ Add the following configuration to the base configuration：
 ```
 
 ### 9.2 Admob
-#####iOS
+##### iOS
 To use the latest Version of Admob, you need to add a configuration in the plist as follows：
 
 ```java
@@ -610,7 +612,7 @@ To use the latest Version of Admob, you need to add a configuration in the plist
             
 ```
 
-#####Android
+##### Android
 Add the following configuration to the base configuration：
 
 ```java
@@ -644,7 +646,7 @@ Add the following configuration to the base configuration：
 
 
 ### 9.3 Mintegral
-#####Android
+##### Android
 Add the following configuration to the base configuration：
 
 ```java
@@ -682,7 +684,7 @@ Add the following configuration to the base configuration：
 
 
 ### 9.4 UnityAds
-#####Android
+##### Android
 Add the following configuration to the base configuration：
 
 ```java
@@ -715,7 +717,7 @@ Add the following configuration to the base configuration：
 ```
 
 ### 9.5 Pangle
-#####Android
+##### Android
 Add the following configuration to the base configuration：
 
 ```java
@@ -794,7 +796,7 @@ Add the following configuration to the base configuration：
 ```
 
 ### 9.6 Nend
-#####Android
+##### Android
 **Add the files of nend-assets to your build. To include it go to Project Structure-> Modules -> Android-> press on the + to add the files.**<br>
 
 Add the following configuration to the base configuration：
@@ -837,7 +839,7 @@ Add the following configuration to the base configuration：
 
 
 ### 9.7 Maio
-#####Android
+##### Android
 Add the following configuration to the base configuration：
 
 ```java
