@@ -95,6 +95,7 @@ public class ATAirSDK extends EventDispatcher
 			{
 				return extCtx.call(ATAirConst.getGDPRLevel) as int;
 			}
+			return GDPR_UNKNOW;
 		}
 		
 		
