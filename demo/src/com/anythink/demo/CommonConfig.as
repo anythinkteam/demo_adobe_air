@@ -38,16 +38,16 @@ package com.anythink.demo
 //		public static const ios_native_placement:String = "b5c2c6d62b9d65";
 
 		//unityads
-//		public static const ios_rv_placement:String = "b5c21a055a51ab";
-//		public static const ios_inter_placement:String = "b5c21a055a51ab";
-//		public static const ios_banner_placement:String = "b5bacacfc470c9";//b5bacacef17717
-//		public static const ios_native_placement:String = "b5c2c6d62b9d65";
+		public static const ios_rv_placement:String = "b5e44166493971";
+		public static const ios_inter_placement:String = "b5c21a055a51ab";
+		public static const ios_banner_placement:String = "b5bacacfc470c9";//b5bacacef17717
+		public static const ios_native_placement:String = "b5c2c6d62b9d65";
 
 		//facebook
-		public static const ios_rv_placement:String = "b5b44a02112383";
-		public static const ios_inter_placement:String = "b5baf4bf9829e4";
-		public static const ios_banner_placement:String = "b5baf502bb23e3";//b5bacacef17717
-		public static const ios_native_placement:String = "b5b0f551340ea9";
+//		public static const ios_rv_placement:String = "b5b44a02112383";
+//		public static const ios_inter_placement:String = "b5baf4bf9829e4";
+//		public static const ios_banner_placement:String = "b5baf502bb23e3";//b5bacacef17717
+//		public static const ios_native_placement:String = "b5b0f551340ea9";
 
 		//maio
 //		public static const ios_rv_placement:String = "b5cb96ce0b931e";
