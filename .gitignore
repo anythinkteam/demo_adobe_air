@@ -4,3 +4,5 @@ adapter_*/*/library.swf
 demo/out
 adapter_*/anythink_sdk_adapter_*.ane
 adapter_*/sdk_ane_*.swc
+
+anythink_sdk.ane
