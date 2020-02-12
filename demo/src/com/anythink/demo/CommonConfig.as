@@ -7,11 +7,11 @@ package com.anythink.demo
 		public static var platform:int = 1;//1为android，2为ios
 		public static const android_appid:String = "a5aa1f9deda26d";
 		public static const android_appkey:String = "4f7b9ac17decb9babec83aac078742c7";
-		public static const android_rv_placement:String = "b5b449eefcab50";
-		public static const android_inter_placement:String = "b5bbdc69a21187";
-		public static const android_banner_placement:String = "b5bbdc51a35e29";
-		public static const android_native_placement:String = "b5aa1fa4165ea3";
-		public static const android_nativebanner_placement:String = "b5aa1fa4165ea3";
+		public static const android_rv_placement:String = "b5b449fb3d89d7";
+		public static const android_inter_placement:String = "b5baca53984692";
+		public static const android_banner_placement:String = "b5baca4f74c3d8";
+		public static const android_native_placement:String = "b5aa1fa2cae775";
+		public static const android_nativebanner_placement:String = "b5aa1fa2cae775";
 		
 		
 		public static const ios_appid:String = "a5b0e8491845b3";
