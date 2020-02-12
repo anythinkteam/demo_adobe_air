@@ -868,10 +868,10 @@ The latest SDKVersion number update is as follows：
 | platform | iOS version number | Android version number|
 | --- | --- |---|
 |AnyThink|5.4.5|5.4.6|
-|Facebook|5.2.0|5.6.0|
-|Admob|7.43.1|18.3.0|
-|Mintegral|5.3.2|10.1.7|
-|UnityAds|3.0.0|3.4.0|
-|Pangle|2.0.1.1|-|
-|Nend|5.1.0|5.4.0|
-|Maio|1.4.5|1.1.11|
+|Facebook|5.5.1|5.6.0|
+|Admob|7.52.0|18.3.0|
+|Mintegral|5.8.7|10.1.7|
+|UnityAds|3.4.0|3.4.0|
+|Pangle|2.7.5.2|-|
+|Nend|5.3.1|5.4.0|
+|Maio|1.5.0|1.1.11|
