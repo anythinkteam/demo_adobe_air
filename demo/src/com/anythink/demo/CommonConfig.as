@@ -16,10 +16,10 @@ package com.anythink.demo
 		
 		public static const ios_appid:String = "a5b0e8491845b3";
 		public static const ios_appkey:String = "7eae0567827cfe2b22874061763f30c9";
-		public static const ios_rv_placement:String = "b5b44a0f115321";
-		public static const ios_inter_placement:String = "b5bacad26a752a";
-		public static const ios_banner_placement:String = "b5bacaccb61c29";//b5bacacef17717
-		public static const ios_native_placement:String = "b5b0f5663c6e4a";
+		public static const ios_rv_placement:String = "b5b44a07fc3bf6";
+		public static const ios_inter_placement:String = "b5bacad5962e84";
+		public static const ios_banner_placement:String = "b5dd363166a5ea";//b5bacacef17717
+		public static const ios_native_placement:String = "b5b0f555698607";
 		public static const ios_nativebanner_placement:String = "b5b0f5663c6e4a";
 		
 		public static function setPlatform():void

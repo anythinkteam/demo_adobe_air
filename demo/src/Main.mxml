@@ -280,6 +280,7 @@
 
             ATAirSDK.getInstance().initSDK(CommonConfig.getAppId(), CommonConfig.getAppKey());
             ATAirSDK.getInstance().setDebugLog(1);
+            trace("ATAirSDK gdpr level:" + ATAirSDK.getInstance().getGDPRLevel());
 
             rewardedVideoListener = new RewardedVideoListenerImpl();
             intertistialListener = new InterstitialListenerImpl();
@@ -292,6 +293,7 @@
         public function gdpr_clickHandler():void
         {
             ATAirSDK.getInstance().showGdprAuth();
+            trace("ATAirSDK gdpr level:" + ATAirSDK.getInstance().getGDPRLevel());
         }
 
         public function load_rv_clickHandler():void

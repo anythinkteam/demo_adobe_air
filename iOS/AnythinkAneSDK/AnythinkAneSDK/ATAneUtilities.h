@@ -9,7 +9,7 @@
 -(BOOL)containsObjectForKey:(id)key;
 @end
 
-@interface NSData(UPArpuKit)
+@interface NSData(AnyThinkKit)
 +(instancetype) dataWithUTF8String:(const char*)string;
 @end
 

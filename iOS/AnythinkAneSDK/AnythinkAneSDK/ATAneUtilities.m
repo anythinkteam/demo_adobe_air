@@ -23,7 +23,7 @@
 }
 @end
 
-@implementation NSData(UPArpuKit)
+@implementation NSData(AnyThinkKit)
 +(instancetype) dataWithUTF8String:(const char*)string {
     return [[NSString stringWithUTF8String:string] dataUsingEncoding:NSUTF8StringEncoding];
 }

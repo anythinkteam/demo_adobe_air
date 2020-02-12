@@ -72,7 +72,7 @@ FREObject createRuntimeException(NSString *type, NSInteger id, NSString *format,
 }
 
 
-+(NSString*) jsonString_uparpu:(NSDictionary*) infoDict {
++(NSString*) jsonString_anythink:(NSDictionary*) infoDict {
     NSError *error;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:infoDict
                                                        options:kNilOptions
