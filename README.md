@@ -729,7 +729,7 @@ Add the following configuration to the base configuration：
 
 ```
 
-### 9.5 Pangle(TikTok)
+### 9.5 Pangle
 ##### Android
 Add the following configuration to the base configuration：
 
