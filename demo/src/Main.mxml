@@ -304,7 +304,7 @@
             customObj["age"] = 17;
             customObj["sex"] = "man";
 
-            ATRewardedVideoAd.loadRewardedVideoAd(CommonConfig.getRewardedVideoPlacement(), "", customObj);
+            ATRewardedVideoAd.loadRewardedVideoAd(CommonConfig.getRewardedVideoPlacement(), "user_id", customObj);
 
         }
 

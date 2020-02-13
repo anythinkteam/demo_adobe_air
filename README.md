@@ -1,4 +1,4 @@
-# AnyThink SDK Adobe Air Native Extension Integration Instructions
+# TopOn SDK Adobe Air Native Extension Integration Instructions
 
 [1 SDK introduction](#1)</br>
 [2 ANE integration reference configuration](#2)</br>
@@ -13,7 +13,7 @@
 
 
 <h2 id='1'>1 SDK introduction </h2>
-AnyThink ANE SDK is the adobe air extention sdk based on the Android and iOS SDK.It supports the Ad formats including RewardedVideoAd, InterstitialAd, BannerAd, NativeAd, BannerAd based on NativeAd。
+TopOn ANE SDK is the adobe air extention sdk based on the Android and iOS SDK.It supports the Ad formats including RewardedVideoAd, InterstitialAd, BannerAd, NativeAd, BannerAd based on NativeAd。
 
 <h2 id='2'>2 ANE integration reference configuration </h2>
 
@@ -23,6 +23,19 @@ AnyThink ANE SDK is the adobe air extention sdk based on the Android and iOS SDK
 | --- | --- |---|
 | anythink_sdk.ane| Anythink basic library, including all support Ad format|Y|
 |anythink\_sdk\_adapter\_*.ane|Different network adapter and network SDK need to be relied on|N|
+
+The latest SDKVersion number update is as follows：
+
+| platform | iOS version number | Android version number|
+| --- | --- |---|
+|TopOn|5.4.5|5.4.6|
+|Facebook|5.5.1|5.6.0|
+|Admob|7.52.0|18.3.0|
+|Mintegral|5.8.7|10.1.7|
+|UnityAds|3.4.0|3.4.0|
+|Pangle|2.7.5.2|-|
+|Nend|5.3.1|5.4.0|
+|Maio|1.5.0|1.1.11|
 
 
 ### 2.2 Android integration dependent ANE file instructions
@@ -76,7 +89,7 @@ class name：ATRewardedVideoAd
 
 | API | parameter | function|
 | --- | --- |---|
-| loadRewardedVideoAd| unitId:String, userId:String, customObject:Object|Used for load RewardedVideoAd with the unitId; UserId is the userId used by the startup incentive, which can be null; CustomObject is the relevant filtering criteria for AnyThink website configuration|
+| loadRewardedVideoAd| unitId:String, userId:String, customObject:Object|Used for load RewardedVideoAd with the unitId; UserId is the userId used by the startup incentive,it can't be empty; CustomObject is the relevant filtering criteria for AnyThink website configuration|
 |showRewardedVideoAd|unitId:String|Show the specified RewardedVideoAd|
 |isRewardedVideoReady|unitId:String|Determines whether the Ad has been loaded|
 |setAdListener|listener:ATRewardedVideoListener|Set the callback object|
@@ -104,7 +117,7 @@ The interface name：ATRewardedVideoListener
 ```
 ATRewardedVideoAd.setAdListener(rewardedVideoListener);
 var customObj:Object = {};	
-ATRewardedVideoAd.loadRewardedVideoAd("unitid", "", customObj);
+ATRewardedVideoAd.loadRewardedVideoAd("unitid", "user_id", customObj);
 ```
 
 2、show Ad
@@ -716,7 +729,7 @@ Add the following configuration to the base configuration：
 
 ```
 
-### 9.5 Pangle
+### 9.5 Pangle(TikTok)
 ##### Android
 Add the following configuration to the base configuration：
 
@@ -863,18 +876,3 @@ Add the following configuration to the base configuration：
 ```
 
 
-
-
-<h2 id='10'>10 VersionUpdate record instructions </h2>
-The latest SDKVersion number update is as follows：
-
-| platform | iOS version number | Android version number|
-| --- | --- |---|
-|AnyThink|5.4.5|5.4.6|
-|Facebook|5.5.1|5.6.0|
-|Admob|7.52.0|18.3.0|
-|Mintegral|5.8.7|10.1.7|
-|UnityAds|3.4.0|3.4.0|
-|Pangle|2.7.5.2|-|
-|Nend|5.3.1|5.4.0|
-|Maio|1.5.0|1.1.11|
