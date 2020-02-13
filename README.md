@@ -9,11 +9,13 @@
 [7 NativeAd call instructions](#7)</br>
 [8 Native BannerAd call instructions](#8)</br>
 [9 Network configuration instructions](#9)</br>
-[10 Version Update record instructions](#10)</br>
 
 
 <h2 id='1'>1 SDK introduction </h2>
-TopOn ANE SDK is the adobe air extention sdk based on the Android and iOS SDK.It supports the Ad formats including RewardedVideoAd, InterstitialAd, BannerAd, NativeAd, BannerAd based on NativeAd。
+TopOn ANE SDK is the adobe air extention sdk based on the Android and iOS SDK.It supports the Ad formats including RewardedVideoAd, InterstitialAd, BannerAd, NativeAd, BannerAd based on NativeAd。<br>
+
+**TopOn Adobe SDK Download Link:**<br>
+http://sdk-release.toponad.com/ANE/5.4.5/TopOn_AneSDK_iOSv545_Androidv546.zip
 
 <h2 id='2'>2 ANE integration reference configuration </h2>
 
