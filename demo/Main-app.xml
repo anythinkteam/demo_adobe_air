@@ -51,7 +51,7 @@
         <extensionID>com.anythink.adapter.plugin.androidx.collection</extensionID>
         <extensionID>com.anythink.adapter.plugin.androidx.constraintlayout</extensionID>
         <extensionID>com.anythink.adapter.plugin.androidx.recycleview</extensionID>
-        <!--<extensionID>com.anythink.adapter.plugin.supportv4</extensionID>-->
+        <extensionID>com.anythink.adapter.plugin.supportv4</extensionID>
         <extensionID>com.anythink.sdk</extensionID>
         <extensionID>com.anythink.adapter.mintegral</extensionID>
         <extensionID>com.anythink.adapter.facebook</extensionID>
@@ -428,66 +428,66 @@
                 android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
 <!--            pangle-->
-            <provider
-                android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
-                android:authorities="air.com.superapp.filemanager.TTMultiProvider"
-                android:exported="false" />
-            <activity
-                android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"
-                android:configChanges="keyboardHidden|orientation|screenSize"
-                android:launchMode="singleTask" />
-            <activity
-                android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"
-                android:configChanges="keyboardHidden|orientation|screenSize"
-                android:launchMode="singleTask" />
-            <activity
-                android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"
-                android:configChanges="keyboardHidden|orientation|screenSize"
-                android:launchMode="singleTask" />
-            <activity
-                android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"
-                android:configChanges="keyboardHidden|orientation|screenSize"
-                android:launchMode="singleTask" />
-            <activity
-                android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
-                android:launchMode="singleTask"
-                android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+<!--            <provider-->
+<!--                android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"-->
+<!--                android:authorities="air.com.superapp.filemanager.TTMultiProvider"-->
+<!--                android:exported="false" />-->
+<!--            <activity-->
+<!--                android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"-->
+<!--                android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--                android:launchMode="singleTask" />-->
+<!--            <activity-->
+<!--                android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"-->
+<!--                android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--                android:launchMode="singleTask" />-->
+<!--            <activity-->
+<!--                android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"-->
+<!--                android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--                android:launchMode="singleTask" />-->
+<!--            <activity-->
+<!--                android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"-->
+<!--                android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--                android:launchMode="singleTask" />-->
+<!--            <activity-->
+<!--                android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"-->
+<!--                android:launchMode="singleTask"-->
+<!--                android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
 
-            <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />
+<!--            <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />-->
 
-            <receiver
-                android:name="com.com.bytedance.overseas.sdk.download.GooglePlayInstallReceiver"
-                android:exported="true" >
-                <intent-filter>
-                    <action android:name="com.android.vending.INSTALL_REFERRER" />
-                </intent-filter>
-            </receiver>
+<!--            <receiver-->
+<!--                android:name="com.com.bytedance.overseas.sdk.download.GooglePlayInstallReceiver"-->
+<!--                android:exported="true" >-->
+<!--                <intent-filter>-->
+<!--                    <action android:name="com.android.vending.INSTALL_REFERRER" />-->
+<!--                </intent-filter>-->
+<!--            </receiver>-->
 
-            <service android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" />
-            <service android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" />
-            <service
-                android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"
-                android:process=":downloader" >
-                <intent-filter>
-                    <action android:name="com.ss.android.socialbase.downloader.remote" />
-                </intent-filter>
-            </service>
-            <service android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService" /> <!-- APP DOWNLOADER START -->
-            <service android:name="com.ss.android.socialbase.appdownloader.AppDownloadHandleService" /> <!-- <receiver android:name="com.ss.android.socialbase.appdownloader.DownloadReceiver"> -->
+<!--            <service android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" />-->
+<!--            <service android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" />-->
+<!--            <service-->
+<!--                android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"-->
+<!--                android:process=":downloader" >-->
+<!--                <intent-filter>-->
+<!--                    <action android:name="com.ss.android.socialbase.downloader.remote" />-->
+<!--                </intent-filter>-->
+<!--            </service>-->
+<!--            <service android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService" /> &lt;!&ndash; APP DOWNLOADER START &ndash;&gt;-->
+<!--            <service android:name="com.ss.android.socialbase.appdownloader.AppDownloadHandleService" /> &lt;!&ndash; <receiver android:name="com.ss.android.socialbase.appdownloader.DownloadReceiver"> &ndash;&gt;-->
 
-            <activity
-                android:name="com.ss.android.socialbase.appdownloader.view.DownloadSizeLimitActivity"
-                android:launchMode="singleTask"
-                android:theme="@android:style/Theme.Dialog" />
-            <activity
-                android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"
-                android:launchMode="singleTask"
-                android:theme="@android:style/Theme.Dialog" />
-            <activity
-                android:name="com.ss.android.downloadlib.activity.InteractionMiddleActivity"
-                android:launchMode="standard" />
+<!--            <activity-->
+<!--                android:name="com.ss.android.socialbase.appdownloader.view.DownloadSizeLimitActivity"-->
+<!--                android:launchMode="singleTask"-->
+<!--                android:theme="@android:style/Theme.Dialog" />-->
+<!--            <activity-->
+<!--                android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"-->
+<!--                android:launchMode="singleTask"-->
+<!--                android:theme="@android:style/Theme.Dialog" />-->
+<!--            <activity-->
+<!--                android:name="com.ss.android.downloadlib.activity.InteractionMiddleActivity"-->
+<!--                android:launchMode="standard" />-->
 
-            <receiver android:name="com.ss.android.downloadlib.core.download.DownloadReceiver" />
+<!--            <receiver android:name="com.ss.android.downloadlib.core.download.DownloadReceiver" />-->
 
 <!--         admob-->
             <meta-data
