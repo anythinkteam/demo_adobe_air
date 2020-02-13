@@ -22,7 +22,6 @@ TopOn ANE SDK is the adobe air extention sdk based on the Android and iOS SDK.It
 | ANE file  | instructions | Whether must|
 | --- | --- |---|
 | anythink_sdk.ane| Anythink basic library, including all support Ad format|Y|
-| sdk\_plugin\_support-v4.ane | Anythink basic library | Y|
 |anythink\_sdk\_adapter\_*.ane|Different network adapter and network SDK need to be relied on|N|
 
 The latest SDKVersion number update is as follows：
@@ -45,6 +44,7 @@ In addition to the basic AnyThink SDK libraries and the required network adapter
 
 | Additional library package| dependent network|
 | ---| ---|
+| sdk\_plugin\_support-v4.ane | All network|
 |sdk\_plugin\_android-query-full.ane|Pangle|
 |sdk\_plugin\_androidx-constraint-layout.ane|Nend|
 |sdk\_plugin\_gson.ane|Admob|
