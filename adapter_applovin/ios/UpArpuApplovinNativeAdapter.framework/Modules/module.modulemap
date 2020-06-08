@@ -1,6 +1,0 @@
-framework module UpArpuApplovinNativeAdapter {
-  umbrella header "UpArpuApplovinNativeAdapter.h"
-
-  export *
-  module * { export * }
-}

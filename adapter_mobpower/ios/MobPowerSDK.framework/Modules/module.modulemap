@@ -1,6 +1,0 @@
-framework module MobPowerSDK {
-  umbrella header "MobPowerSDK.h"
-
-  export *
-  module * { export * }
-}

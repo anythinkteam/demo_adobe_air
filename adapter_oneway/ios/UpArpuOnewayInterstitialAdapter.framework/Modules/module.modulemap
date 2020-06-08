@@ -1,6 +1,0 @@
-framework module UpArpuOnewayInterstitialAdapter {
-  umbrella header "UpArpuOnewayInterstitialAdapter.h"
-
-  export *
-  module * { export * }
-}

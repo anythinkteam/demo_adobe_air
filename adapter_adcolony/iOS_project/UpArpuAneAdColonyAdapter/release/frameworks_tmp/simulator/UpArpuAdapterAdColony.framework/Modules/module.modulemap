@@ -1,6 +1,0 @@
-framework module UpArpuAdapterAdColony {
-  umbrella header "UpArpuAdapterAdColony.h"
-
-  export *
-  module * { export * }
-}

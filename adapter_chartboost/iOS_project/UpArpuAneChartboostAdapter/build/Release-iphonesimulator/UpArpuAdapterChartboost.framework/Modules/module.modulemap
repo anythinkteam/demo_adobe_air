@@ -1,6 +1,0 @@
-framework module UpArpuAdapterChartboost {
-  umbrella header "UpArpuAdapterChartboost.h"
-
-  export *
-  module * { export * }
-}

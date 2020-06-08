@@ -1,6 +1,0 @@
-framework module UpArpuApplovinInterstitialAdapter {
-  umbrella header "UpArpuApplovinInterstitialAdapter.h"
-
-  export *
-  module * { export * }
-}

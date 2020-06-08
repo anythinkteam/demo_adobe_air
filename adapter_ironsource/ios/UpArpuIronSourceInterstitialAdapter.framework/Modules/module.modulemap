@@ -1,6 +1,0 @@
-framework module UpArpuIronSourceInterstitialAdapter {
-  umbrella header "UpArpuIronSourceInterstitialAdapter.h"
-
-  export *
-  module * { export * }
-}

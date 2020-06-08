@@ -1,6 +1,0 @@
-framework module ATAdapterTiktok {
-  umbrella header "ATAdapterTiktok.h"
-
-  export *
-  module * { export * }
-}

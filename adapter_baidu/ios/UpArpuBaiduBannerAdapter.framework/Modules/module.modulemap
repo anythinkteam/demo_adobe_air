@@ -1,6 +1,0 @@
-framework module UpArpuBaiduBannerAdapter {
-  umbrella header "UpArpuBaiduBannerAdapter.h"
-
-  export *
-  module * { export * }
-}

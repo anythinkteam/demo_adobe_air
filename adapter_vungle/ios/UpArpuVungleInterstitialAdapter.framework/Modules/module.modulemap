@@ -1,6 +1,0 @@
-framework module UpArpuVungleInterstitialAdapter {
-  umbrella header "UpArpuVungleInterstitialAdapter.h"
-
-  export *
-  module * { export * }
-}

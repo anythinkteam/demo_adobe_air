@@ -1,6 +1,0 @@
-framework module ATAdapterMintegral {
-  umbrella header "ATAdapterMintegral.h"
-
-  export *
-  module * { export * }
-}

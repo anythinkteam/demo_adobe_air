@@ -1,8 +1,0 @@
-<platform xmlns="http://ns.adobe.com/air/extension/4.0">
-	<description>up_sdk_ane</description>
-	<copyright>uparpu</copyright>
-	<packagedDependencies>
-		<packagedDependency>InMobi-7.2.7.jar</packagedDependency>
-	</packagedDependencies>
-
-</platform>

@@ -1,7 +1,0 @@
-<platform xmlns="http://ns.adobe.com/air/extension/4.0">
-	<description>up_sdk_ane</description>
-	<copyright>uparpu</copyright>
-	<packagedDependencies>
-		<packagedDependency>vungle-android-sdk-6.3.24.jar</packagedDependency>
-	</packagedDependencies>
-</platform>
