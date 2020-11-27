@@ -19,7 +19,7 @@ QQ & wechat 188108875(Harry)
 ## Integration instructions
 This project only contains TopOn SDK source code. If you need to test a third-party advertising platform, please download from the following URL
 
-https://docs.toponad.com/#/en-us/cocoscreator/cocoscreator_doc/cocoscreator_access_doc
+https://docs.toponad.com/#/en-us/android/GetStarted/TopOn_Get_Started
 
 ## LICENSE
 
